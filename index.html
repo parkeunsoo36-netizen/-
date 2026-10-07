@@ -16,26 +16,46 @@
 :root[data-theme="dark"]{
   --bg:#101718; --card:#172123; --fg:#E4EDEB; --muted:#9AAEAD; --line:#2A3A3C;
   --accent:#4FC7B2; --accent-soft:#1B3633; --pitch:#2A2117; --pitch-line:#6B4D2A; --warn:#E9B465; --hot:#FB923C; color-scheme:dark}
+[hidden]{display:none!important}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6;padding-inline:16px;padding-block:0 96px}
 .wrap{max-width:640px;margin:0 auto}
 header{padding-block:20px 8px}
 h1{font-family:var(--display);font-weight:800;font-size:24px;margin:0;letter-spacing:-.01em}
 .sub{color:var(--muted);font-size:13px}
-input{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%;box-sizing:border-box}
+input{font:inherit;font-size:16px;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%;box-sizing:border-box}
 .bar{padding-block:8px;display:grid;gap:6px;border-bottom:1px solid var(--line)}
 .step{font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--muted)}
 .row{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
 .row::-webkit-scrollbar{display:none}
-.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:7px 14px;min-height:36px;font:inherit;font-size:14px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg);font-weight:600}
 .chip small{opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
 button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.profile{background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin-top:14px;display:grid;gap:6px;font-size:14px}
+.profile{background:var(--accent-soft);border-radius:12px;padding:12px 16px;margin-top:14px;font-size:14px}
+.profile summary{cursor:pointer;line-height:1.5}
+.profile summary small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+.profile[open] summary small{display:none}
+.profile .pin{display:grid;gap:6px;margin-top:10px}
+.sum{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-block:14px 8px;font-size:14px}
+.sum b{font-family:var(--display)}
+.reset{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:6px 10px;cursor:pointer;flex:none}
+.pills{display:flex;flex-wrap:wrap;gap:4px}
+.pills code{font-family:var(--mono);font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+.btns{display:flex;gap:8px;flex-wrap:wrap}
+.big{font:inherit;font-size:13px;font-weight:600;border:0;background:var(--accent);color:var(--bg);border-radius:6px;padding:5px 12px;cursor:pointer}
+details.more summary{cursor:pointer;color:var(--accent);font-size:13px;font-weight:600;padding-block:2px}
+details.more[open] summary{margin-bottom:8px}
+details.more .inner{display:grid;gap:10px}
+#show{position:fixed;inset:0;z-index:20;background:var(--card);display:flex;flex-direction:column;justify-content:center;gap:24px;padding:calc(env(safe-area-inset-top,0px) + 24px) 24px calc(env(safe-area-inset-bottom,0px) + 24px)}
+#show p{font-size:clamp(24px,7vw,40px);line-height:1.35;margin:0;font-weight:600}
+#show button{align-self:center;font:inherit;font-size:16px;border:1px solid var(--line);background:var(--bg);color:var(--fg);border-radius:10px;padding:12px 28px;cursor:pointer}
+.hotrow{cursor:pointer;border-radius:6px;padding:2px 0}
+.hotrow:hover{background:var(--accent-soft)}
 .profile b{font-family:var(--display)}
 .lab{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:700}
 .top{margin-top:14px;display:grid;gap:6px}
 .top .row{flex-wrap:wrap;overflow:visible}
-.top .chip{font-family:var(--mono);font-size:12.5px}
+.top .chip{font-family:var(--mono);font-size:12.5px;flex:0 1 auto;max-width:100%;white-space:normal;text-align:left;overflow-wrap:anywhere}
 .count{color:var(--muted);font-size:13px;margin-block:14px 8px}
 .list{display:grid;gap:14px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:10px;min-width:0}
@@ -87,7 +107,7 @@ nav.tabs button[aria-current="page"]{color:var(--accent);box-shadow:inset 0 3px 
   </div>
   <div id="m-profile"></div>
   <div class="top" id="m-top"></div>
-  <div class="count" id="m-count"></div>
+  <div class="sum" id="m-sum"></div>
   <div class="list" id="m-list"></div>
   <details class="guide">
     <summary>제품 뒷면 성분표 읽는 법</summary>
@@ -107,13 +127,14 @@ nav.tabs button[aria-current="page"]{color:var(--accent);box-shadow:inset 0 3px 
     <span class="step">기간</span><div class="row" id="t-p"></div>
     <span class="step">국가</span><div class="row" id="t-c"></div>
   </div>
-  <div class="lab" style="margin-top:14px">이 기간에 많이 나온 고민</div>
+  <div class="lab" style="margin-top:14px">이 기간에 많이 나온 고민 · 누르면 추천 찾기로 이동</div>
   <div class="hotlist" id="t-hot"></div>
   <div class="count" id="t-count"></div>
   <div class="list" id="t-list"></div>
 </section>
 </div>
 
+<div id="show" hidden role="dialog" aria-label="손님에게 보여주기"><p id="show-t"></p><button type="button" id="show-x">닫기</button></div>
 <nav class="tabs">
   <button type="button" data-v="main" aria-current="page">추천 찾기</button>
   <button type="button" data-v="trend">오늘의 트렌드</button>
@@ -135,7 +156,9 @@ if (location.hash === '#trend') st.view = 'trend';
 const save = () => { try { localStorage.setItem('ob-state2', JSON.stringify({view:st.view,c:st.c,kw:st.kw,cat:st.cat,p:st.p,tc:st.tc})); } catch(e){} };
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const FLAG = {in:'🇮🇳',fr:'🇫🇷',es:'🇪🇸',it:'🇮🇹',us:'🇺🇸',jp:'🇯🇵',cn:'🇨🇳'};
 const cname = v => v === 'all' ? '전체' : C[v].name;
+const cflag = v => v === 'all' ? '전체' : `${FLAG[v]||''} ${C[v].name}`;
 const daysAgo = d => (new Date(LATEST) - new Date(d)) / 864e5;
 
 function chips(el, list, key, label, count){
@@ -151,14 +174,14 @@ const metaTags = it => `<span class="tag cc">${esc(cname(it.c))}</span><span cla
 function renderMain(){
   $('m-sub').textContent = `누적 ${ALL.length}개 트렌드 · 마지막 업데이트 ${LATEST}`;
   const base = ALL.filter(it => (st.c==='all'||it.c===st.c) && (st.cat==='전체'||it.cat===st.cat));
-  chips($('m-c'), ORDER, 'c', cname);
+  chips($('m-c'), ORDER, 'c', cflag);
   chips($('m-kw'), KWS, 'kw', v => v, v => v==='전체' ? base.length : base.filter(it => (it.kw||[]).includes(v)).length);
   chips($('m-cat'), CATS, 'cat', v => v);
   const p = C[st.c];
-  $('m-profile').innerHTML = p ? `<div class="profile">
-    <div><span class="lab">주요 피부 고민</span><br><b>${esc(p.concerns)}</b></div>
+  $('m-profile').innerHTML = p ? `<details class="profile"><summary><b>${esc(p.name)} 손님 특징</b><small>주요 고민: ${esc(p.concerns)}</small></summary>
+    <div class="pin"><div><span class="lab">주요 피부 고민</span><br><b>${esc(p.concerns)}</b></div>
     <div><span class="lab">피부 특징</span><br>${esc(p.skin)}</div>
-    <div><span class="lab">응대 팁</span><br>${esc(p.tip)}</div></div>` : '';
+    <div><span class="lab">응대 팁</span><br>${esc(p.tip)}</div></div></details>` : '';
   const items = base.filter(it => (st.kw==='전체'||(it.kw||[]).includes(st.kw)) &&
     (!st.q || JSON.stringify([it.t, it.ing, it.why]).toLowerCase().includes(st.q)));
   const cnt = {};
@@ -167,14 +190,18 @@ function renderMain(){
   $('m-top').innerHTML = top.length && (st.c!=='all'||st.kw!=='전체'||st.cat!=='전체') ? `<span class="lab">이 손님에게 먼저 찾아볼 성분 (눌러서 검색)</span>
     <div class="row">${top.map(([n,k]) => `<button class="chip" type="button" data-q="${esc(n)}">${esc(n)}<small>${k}</small></button>`).join('')}</div>` : '';
   $('m-top').onclick = e => { const b = e.target.closest('[data-q]'); if (!b) return; $('m-q').value = b.dataset.q; st.q = b.dataset.q.toLowerCase(); render(); };
-  $('m-count').textContent = `${items.length}개 추천`;
+  const picked = [st.c!=='all'&&cname(st.c), st.kw!=='전체'&&st.kw, st.cat!=='전체'&&st.cat, st.q&&`"${st.q}"`].filter(Boolean);
+  $('m-sum').innerHTML = `<span>${picked.length ? `<b>${esc(picked.join(' · '))}</b> 손님께 ` : ''}<b>${items.length}개</b> 추천</span>${picked.length ? '<button class="reset" type="button" id="m-reset">처음부터</button>' : ''}`;
+  if (picked.length) $('m-reset').onclick = () => { Object.assign(st, {c:'all', kw:'전체', cat:'전체', q:''}); $('m-q').value=''; save(); render(); window.scrollTo(0,0); };
   $('m-list').innerHTML = items.length ? items.map(it => `<article class="card">
     <div class="meta">${metaTags(it)}${(it.kw||[]).map(k => `<span class="tag kw">${esc(k)}</span>`).join('')}</div>
     <h2>${esc(it.t)}</h2>
-    ${ingTable(it)}
-    <p class="look"><b>뒷면 확인:</b> ${esc(it.look)}</p>
-    <div class="pitch"><span class="lab">추천 멘트</span><p>${esc(it.pitch)}</p><button class="copy" type="button">복사</button></div>
-    <details class="why"><summary>왜 뜨고 있나요 · ${esc(it.date)}</summary><p class="why">${esc(it.why)}</p><div class="src">${srcLinks(it)}</div></details>
+    <div><span class="lab">뒷면에서 찾을 성분</span><div class="pills">${it.ing.map(([k,e]) => `<code>${esc(e.split(' (')[0])}</code>`).join('')}</div></div>
+    <div class="pitch"><span class="lab">추천 멘트</span><p>${esc(it.pitch)}</p><div class="btns"><button class="big" type="button">손님에게 크게 보여주기</button><button class="copy" type="button">복사</button></div></div>
+    <details class="more"><summary>성분 자세히 · 왜 뜨고 있나요</summary><div class="inner">
+      ${ingTable(it)}
+      <p class="look"><b>뒷면 확인:</b> ${esc(it.look)}</p>
+      <p class="why">${esc(it.why)}</p><div class="src">${it.date} · ${srcLinks(it)}</div></div></details>
   </article>`).join('') : '<div class="empty">조건에 맞는 항목이 없어요. 고민이나 국가를 바꿔 보세요.</div>';
 }
 
@@ -182,13 +209,14 @@ function renderTrend(){
   const period = PERIODS.find(x => x[0]===st.p);
   $('t-sub').textContent = st.p==='1' ? `${LATEST} 수집분` : `${period[1]} (${LATEST} 기준)`;
   chips($('t-p'), PERIODS.map(x => x[0]), 'p', v => PERIODS.find(x => x[0]===v)[1]);
-  chips($('t-c'), ORDER, 'tc', cname);
+  chips($('t-c'), ORDER, 'tc', cflag);
   const items = ALL.filter(it => (st.p==='all' || daysAgo(it.date) < +st.p) && (st.tc==='all'||it.c===st.tc));
   const cnt = {};
   items.forEach(it => (it.kw||[]).forEach(k => cnt[k] = (cnt[k]||0) + 1));
   const top = Object.entries(cnt).sort((a,b) => b[1]-a[1]).slice(0,6);
   const max = top.length ? top[0][1] : 1;
-  $('t-hot').innerHTML = top.map(([k,n]) => `<div class="hotrow"><span>${esc(k)}</span><div class="hotbar" style="width:${Math.max(6, n/max*100)}%"></div><span>${n}</span></div>`).join('') || '<div class="sub">아직 데이터가 없어요.</div>';
+  $('t-hot').innerHTML = top.map(([k,n]) => `<div class="hotrow" role="button" tabindex="0" data-kw="${esc(k)}"><span>${esc(k)}</span><div class="hotbar" style="width:${Math.max(6, n/max*100)}%"></div><span>${n}</span></div>`).join('') || '<div class="sub">아직 데이터가 없어요.</div>';
+  $('t-hot').onclick = e => { const r = e.target.closest('[data-kw]'); if (!r) return; Object.assign(st, {view:'main', kw:r.dataset.kw, c:st.tc, cat:'전체', q:''}); $('m-q').value=''; save(); render(); window.scrollTo(0,0); };
   $('t-count').textContent = `${items.length}개 트렌드`;
   $('t-list').innerHTML = items.length ? items.map(it => {
     const q = encodeURIComponent(it.q || it.t);
@@ -215,11 +243,14 @@ function render(){
 document.querySelector('nav.tabs').onclick = e => { const b = e.target.closest('button'); if (!b) return; st.view = b.dataset.v; save(); render(); window.scrollTo(0,0); };
 $('m-q').oninput = e => { st.q = e.target.value.trim().toLowerCase(); render(); };
 document.addEventListener('click', e => {
+  const big = e.target.closest('.big');
+  if (big) { $('show-t').textContent = big.closest('.pitch').querySelector('p').textContent; $('show').hidden = false; return; }
   const b = e.target.closest('.copy'); if (!b) return;
-  const p = b.previousElementSibling;
+  const p = b.closest('.pitch').querySelector('p');
   navigator.clipboard.writeText(p.textContent).then(() => { b.textContent = '복사됨'; setTimeout(() => b.textContent = '복사', 1500); })
     .catch(() => { const r = document.createRange(); r.selectNodeContents(p); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = '선택됨, 길게 눌러 복사'; });
 });
+$('show-x').onclick = () => { $('show').hidden = true; };
 render();
 </script>
 <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');</script></body></html>
