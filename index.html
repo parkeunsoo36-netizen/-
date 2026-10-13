@@ -86,6 +86,9 @@ details.more .inner{display:grid;gap:10px}
 .hotrow:hover{background:var(--accent-soft)}
 .hotbar{height:8px;border-radius:4px;background:var(--hot)}
 .hotrow span:last-child{text-align:right;font-variant-numeric:tabular-nums;color:var(--muted)}
+.sort{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.sort .row{flex:1}
+.sort .chip{min-height:32px;padding:4px 12px;font-size:13px}
 .count{color:var(--muted);font-size:13px;margin-block:14px 8px}
 .empty{color:var(--muted);text-align:center;padding:40px 0}
 details.guide{margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:14px}
@@ -126,6 +129,7 @@ nav.tabs button[aria-current="page"]{color:var(--accent);box-shadow:inset 0 3px 
   <div id="m-profile"></div>
   <div class="top" id="m-top"></div>
   <div class="sum" id="m-sum"></div>
+  <div class="sort"><span class="lab">정렬</span><div class="row" id="m-s"></div></div>
   <div class="list" id="m-list"></div>
   <details class="guide">
     <summary>제품 뒷면 성분표 읽는 법</summary>
@@ -155,6 +159,7 @@ nav.tabs button[aria-current="page"]{color:var(--accent);box-shadow:inset 0 3px 
     <span class="step">국가</span><div class="row" id="p-c"></div>
   </div>
   <div class="count" id="p-count"></div>
+  <div class="sort"><span class="lab">정렬</span><div class="row" id="p-s"></div></div>
   <div class="list" id="p-list"></div>
 </section>
 
@@ -167,6 +172,7 @@ nav.tabs button[aria-current="page"]{color:var(--accent);box-shadow:inset 0 3px 
   <div class="lab" style="margin-top:12px">이 기간에 많이 나온 고민 · 누르면 추천 찾기로 이동</div>
   <div class="hotlist" id="t-hot"></div>
   <div class="count" id="t-count"></div>
+  <div class="sort"><span class="lab">정렬</span><div class="row" id="t-s"></div></div>
   <div class="list" id="t-list"></div>
 </section>
 </div>
@@ -194,11 +200,11 @@ const PERIODS = [['1','오늘'],['7','최근 7일'],['30','최근 30일'],['all'
 const PFS = ['전체','TikTok','YouTube','Instagram'];
 const EN = {in:'India',fr:'France',es:'Spain',it:'Italy',us:'the US',jp:'Japan',cn:'China'};
 const FLAG = {in:'🇮🇳',fr:'🇫🇷',es:'🇪🇸',it:'🇮🇹',us:'🇺🇸',jp:'🇯🇵',cn:'🇨🇳'};
-const st = {view:'main', c:'all', kw:'전체', cat:'전체', q:'', p:'1', tc:'all', pc:'all', ppf:'전체'};
+const st = {view:'main', c:'all', kw:'전체', cat:'전체', q:'', p:'1', tc:'all', pc:'all', ppf:'전체', ms:'new', ps:'hot', ts:'new'};
 try { Object.assign(st, JSON.parse(localStorage.getItem('ob-state3')||'{}')); } catch(e){}
 if (location.hash === '#trend') st.view = 'trend';
 if (location.hash === '#pop') st.view = 'pop';
-const save = () => { try { localStorage.setItem('ob-state3', JSON.stringify({view:st.view,c:st.c,kw:st.kw,cat:st.cat,p:st.p,tc:st.tc,pc:st.pc,ppf:st.ppf})); } catch(e){} };
+const save = () => { try { localStorage.setItem('ob-state3', JSON.stringify({view:st.view,c:st.c,kw:st.kw,cat:st.cat,p:st.p,tc:st.tc,pc:st.pc,ppf:st.ppf,ms:st.ms,ps:st.ps,ts:st.ts})); } catch(e){} };
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const cname = v => v === 'all' ? '전체' : C[v].name;
@@ -233,6 +239,21 @@ const POP = (() => {
   }));
   return [...seen.values()].sort((a,b) => b.views - a.views || b.heat - a.heat || String(b.v.date).localeCompare(String(a.v.date)));
 })();
+
+// Sorting: 인기순 = trending in more countries, then more videos; 최신순 = collection date
+const SORTS = {hot:'🔥 인기순', new:'🕒 최신순', vid:'▶ 영상 많은순'};
+const nv = it => (it.vid||[]).length;
+const OCC = {};
+ALL.forEach(it => it.ing.slice(0,2).forEach(([k,e]) => OCC[e.trim()] = (OCC[e.trim()]||0) + 1));
+// popularity score: confirmed videos weigh most, then how often the hero ingredients recur across all research
+const score = it => nv(it) * 30 + heatOf(it) * 5 + it.ing.slice(0,2).reduce((t,[k,e]) => t + (OCC[e.trim()]||0), 0);
+const BY = {
+  hot: (a,b) => score(b) - score(a) || b.date.localeCompare(a.date),
+  new: (a,b) => b.date.localeCompare(a.date),
+  vid: (a,b) => nv(b) - nv(a) || b.date.localeCompare(a.date)};
+const POPBY = {
+  hot: (a,b) => b.views - a.views || b.heat - a.heat || String(b.v.date).localeCompare(String(a.v.date)),
+  new: (a,b) => String(b.v.date).localeCompare(String(a.v.date)) || b.heat - a.heat};
 
 function chips(el, list, key, label, count){
   el.innerHTML = list.map(v => `<button class="chip" type="button" data-v="${esc(v)}" aria-pressed="${st[key]===v}">${esc(label(v))}${count ? `<small>${count(v)}</small>` : ''}</button>`).join('');
@@ -277,7 +298,8 @@ function renderMain(){
     <div><span class="lab">응대 팁</span><br>${esc(p.tip)}</div></div></details>` : '';
   const items = base.filter(it => (st.kw==='전체'||(it.kw||[]).includes(st.kw)) &&
     (!st.q || JSON.stringify([it.t, it.ing, it.why, it.cat]).toLowerCase().includes(st.q)))
-    .sort((a,b) => b.date.localeCompare(a.date) || heatOf(b) - heatOf(a));
+    .sort(BY[st.ms] || BY.new);
+  chips($('m-s'), Object.keys(SORTS), 'ms', v => SORTS[v]);
   const cnt = {};
   items.forEach(it => it.ing.forEach(([k,e]) => { const n = e.trim(); cnt[n] = (cnt[n]||0) + 1; }));
   const top = Object.entries(cnt).sort((a,b) => b[1]-a[1]).slice(0,8);
@@ -291,7 +313,8 @@ function renderMain(){
 }
 
 function renderPop(){
-  const list = POP.filter(x => (st.ppf==='전체' || x.pf===st.ppf) && (st.pc==='all' || x.it.c===st.pc));
+  const list = POP.filter(x => (st.ppf==='전체' || x.pf===st.ppf) && (st.pc==='all' || x.it.c===st.pc)).sort(POPBY[st.ps] || POPBY.hot);
+  chips($('p-s'), ['hot','new'], 'ps', v => SORTS[v]);
   $('p-sub').textContent = `기준에 맞는 영상 ${POP.length}개 · ${LATEST} 기준`;
   chips($('p-pf'), PFS.filter(v => v==='전체' || POP.some(x => x.pf===v)), 'ppf', v => v, v => v==='전체' ? POP.length : POP.filter(x => x.pf===v).length);
   chips($('p-c'), ORDER, 'pc', cflag);
@@ -311,7 +334,8 @@ function renderTrend(){
   $('t-sub').textContent = st.p==='1' ? `${LATEST} 수집분` : `${period[1]} (${LATEST} 기준)`;
   chips($('t-p'), PERIODS.map(x => x[0]), 'p', v => PERIODS.find(x => x[0]===v)[1]);
   chips($('t-c'), ORDER, 'tc', cflag);
-  const items = ALL.filter(it => (st.p==='all' || daysAgo(it.date) < +st.p) && (st.tc==='all'||it.c===st.tc));
+  const items = ALL.filter(it => (st.p==='all' || daysAgo(it.date) < +st.p) && (st.tc==='all'||it.c===st.tc)).sort(BY[st.ts] || BY.new);
+  chips($('t-s'), Object.keys(SORTS), 'ts', v => SORTS[v]);
   const cnt = {};
   items.forEach(it => (it.kw||[]).forEach(k => cnt[k] = (cnt[k]||0) + 1));
   const top = Object.entries(cnt).sort((a,b) => b[1]-a[1]).slice(0,6);
