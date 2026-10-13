@@ -69,6 +69,9 @@ h2{font-family:var(--display);font-size:18px;font-weight:700;margin:0;text-wrap:
 .btns{display:flex;gap:8px;flex-wrap:wrap}
 .big{font:inherit;font-size:14px;font-weight:600;border:0;background:var(--accent);color:var(--bg);border-radius:8px;padding:8px 14px;cursor:pointer;min-height:38px}
 .copy{font:inherit;font-size:14px;border:1px solid var(--pitch-line);background:transparent;color:var(--fg);border-radius:8px;padding:8px 14px;cursor:pointer;min-height:38px}
+details.pmore summary{cursor:pointer;list-style:none;font-size:14px;font-weight:600;color:var(--fg);background:var(--pitch);border:1px dashed var(--pitch-line);border-radius:10px;padding:10px 14px;min-height:22px}
+details.pmore summary::-webkit-details-marker{display:none}
+details.pmore[open] summary{display:none}
 details.more summary{cursor:pointer;color:var(--accent);font-size:13.5px;font-weight:600;padding-block:2px}
 details.more[open] summary{margin-bottom:8px}
 details.more .inner{display:grid;gap:10px}
@@ -276,7 +279,7 @@ function card(it){
     <div class="meta">${metaTags(it)}${h >= 3 ? `<span class="tag hot">🔥 ${h}개국 화제</span>` : ''}</div>
     <h2>${esc(it.t)}</h2>
     <div><span class="lab">뒷면에서 찾을 성분 · 누르면 자세히</span>${fxList(it)}</div>
-    ${pitchBox(it)}
+    <details class="pmore"><summary>💬 추천 멘트 보기</summary>${pitchBox(it)}</details>
     <details class="more"><summary>왜 뜨고 있나요 · 관련 영상</summary><div class="inner">
       <p class="why">${esc(it.why)}</p>
       <p class="look"><b>뒷면 확인 팁:</b> ${esc(it.look)}</p>
