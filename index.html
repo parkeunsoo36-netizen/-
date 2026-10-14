@@ -154,9 +154,9 @@ nav.tabs button[aria-current="page"]{color:var(--accent);box-shadow:inset 0 3px 
 
 <section id="v-pop" hidden>
   <header><h1>인기 콘텐츠</h1><div class="sub" id="p-sub"></div></header>
-  <details class="profile"><summary><b>인기 콘텐츠 선정 기준</b><small>최근 한 달 안에 올라온 영상 중 조회수 10만+ 또는 여러 나라에서 화제인 성분</small></summary>
+  <details class="profile"><summary><b>인기 콘텐츠 선정 기준</b><small>최근 3개월 안에 올라온 영상 중 조회수 10만+ 또는 여러 나라에서 화제인 성분</small></summary>
     <div class="pin">
-      <div>① 올린 날짜가 확인되고 <b>최근 한 달(30일) 안</b>에 올라온 영상만 봐요.</div>
+      <div>① 올린 날짜가 확인되고 <b>최근 3개월(90일) 안</b>에 올라온 영상만 봐요.</div>
       <div>② 그중 <b>조회수 10만 이상</b>이 확인됐거나, 핵심 성분이 <b>3개국 이상</b>에서 트렌드로 나온 영상을 넣어요.</div>
       <div>③ 순서: 확인된 조회수 → 화제 국가 수 → 최신순.</div>
       <div class="sub">틱톡·유튜브 페이지는 제 작업 환경에서 열리지 않아 조회수를 직접 읽을 수 없어요. 그래서 ②번 기준을 함께 써요.</div>
@@ -242,7 +242,7 @@ const POP = (() => {
     const age = v.date ? daysAgo(v.date) : null;
     const views = +v.views || 0;
     const heat = heatOf(it);
-    const ok = age !== null && age <= 30 && (views >= 100000 || heat >= 3);  // 사용자 규칙: 한 달 이내 영상만
+    const ok = age !== null && age <= 90 && (views >= 100000 || heat >= 3);  // 사용자 규칙: 최근 3개월(90일) 이내 영상만
     if (!ok) return;
     const prev = seen.get(v.url);
     if (!prev || heat > prev.heat) seen.set(v.url, {v, it, views, heat, pf: pfOf(v.url)});
