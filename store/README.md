@@ -19,7 +19,7 @@
 | `main.js` | 상태 관리와 탭 전환 |
 
 ## 데이터 만들기 (Python)
-순서대로 실행: `make_dicts.py` → `excel_to_products.py <진열안.xlsx>` → `apply_manual.py` → `tag_products.py` → `fetch_stats.py` → `make_page_data.py`
+한 번에: `python3 rebuild.py` (매일: 페이지 데이터 + 점검) / `python3 rebuild.py 진열안.xlsx` (진열이 바뀐 날: 전부). 점검에 실패하면 어제 데이터로 되돌리고 멈춥니다.
 
 | 파일 | 하는 일 |
 |---|---|
@@ -30,6 +30,8 @@
 | `fetch_stats.py` | 유튜브 영상 조회수·좋아요·댓글 갱신 (무료 할당량 안에서) |
 | `find_viral.py` / `viral_brands.json` | 트렌드 영상에 나온 매장 제품 찾기 (인기급상승) |
 | `trend_feed.py` | 트렌드 카드와 인기 점수 계산 |
-| `make_page_data.py` | 위 결과를 `app/data.js` 하나로 묶음 |
+| `make_page_data.py` | 위 결과를 `app/data.js` 하나로 묶음 (트렌드는 나라별 인기 상위 30장) |
+| `check.py` | 올리기 전 점검: 제품 수, 성분 사전, 위치, 트렌드 날짜 |
+| `rebuild.py` | 위 단계를 순서대로 실행하고, 실패하면 어디서 멈췄는지 알려줌 |
 
 `manual/직접입력.csv`는 빈 양식입니다(사용법은 `manual/README.md`).

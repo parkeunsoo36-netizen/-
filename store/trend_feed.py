@@ -42,3 +42,14 @@ def card(it, syn, stats):  # 트렌드 탭 카드 1장
             "ing": ing_ids(it, syn), "ing_ko": [p[0] for p in it.get("ing", [])], "why": it.get("why", ""),
             "look": it.get("look", ""), "pitch": it.get("pitch", ""), "vid": vids,
             "pop": popularity(top) if top else 0, "st": top}
+
+PER_COUNTRY = 30  # 화면은 나라별 TOP 10 + 더 보기라서, 나라마다 인기 상위 30장만 넣음 (페이지 가볍게)
+
+def feed(items, syn, stats):  # 트렌드 탭 카드 목록: 나라별 인기순 상위 PER_COUNTRY장
+    cards = [card(it, syn, stats) for it in reversed(items)]
+    cards.sort(key=lambda c: (c["pop"], c["d"]), reverse=True)  # 화면과 같은 순서: 인기순, 같으면 최신순
+    kept, n = [], collections.Counter()
+    for c in cards:
+        n[c["c"]] += 1
+        if n[c["c"]] <= PER_COUNTRY: kept.append(c)
+    return kept

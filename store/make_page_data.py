@@ -30,7 +30,7 @@ if __name__ == "__main__":
     viral = find_viral.viral(ps, items)
     for p in ps: p["viral"] = viral.get(p["id"], [])
     data = {"products": ps, "dict": dic, "syn": syn, "trend": by_country(items, si), "countries": names,
-            "hot": trend_feed.hot(items, si), "feed": [trend_feed.card(it, si, stats) for it in reversed(items)],
+            "hot": trend_feed.hot(items, si), "feed": trend_feed.feed(items, si, stats),
             "last": max(it["_d"] for it in items)}
     js = "window.OB = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + ";\n"
     open(os.path.join(here, "app", "data.js"), "w", encoding="utf-8").write(js)
