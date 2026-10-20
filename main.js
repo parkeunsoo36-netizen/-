@@ -6,8 +6,8 @@
     form: ["크림", "세럼앰플", "토너", "패드", "팩마스크", "선케어", "클렌저"],
     time: ["아침", "밤"],
   };
-  const blank = () => ({ concern: [], skin: [], form: [], time: [], ingredient: [], word: [], country: "", shown: 20 });
-  let st = blank(), open = false, tab = "find", sh = null, tc = "", tshown = 10;
+  const blank = () => ({ concern: [], skin: [], form: [], time: [], ingredient: [], word: [], country: "", shown: 10 });  // 목록은 10개씩, 더 보기로 10개 더
+  let st = blank(), open = false, tab = "find", sh = null, tc = "", tshown = 10, dshown = 10;
   const $ = id => document.getElementById(id);
   const names = OB.products.map(p => p.name.toLowerCase());
   const count = {};
@@ -39,7 +39,7 @@
     $("title").textContent = { find: "추천 찾기", dict: "성분 사전", trend: "트렌드" }[tab];
     document.querySelectorAll(".tabbar button").forEach(b => b.setAttribute("aria-current", b.dataset.val === tab ? "page" : "false"));
     if (tab === "find") renderFind();
-    if (tab === "dict") $("dlist").innerHTML = Dict.list($("dq").value, count);
+    if (tab === "dict") $("dlist").innerHTML = Dict.list($("dq").value, count, dshown);
     if (tab === "trend") $("trend").innerHTML = Trend.page(tc, tshown, count);
     $("sheet").hidden = !sh;
     if (sh) $("sheetbody").innerHTML = sheetHtml();
@@ -54,7 +54,7 @@
   function toggle(cat, val) {
     if (cat === "country") st.country = st.country === val ? "" : val;
     else st[cat] = st[cat].includes(val) ? st[cat].filter(v => v !== val) : [...st[cat], val];
-    st.shown = 20;
+    st.shown = 10;
   }
 
   function act(b) {
@@ -62,7 +62,7 @@
     if (a === "toggle") { toggle(cat, val); if (b.closest("#sheet")) { sh = null; tab = "find"; scrollTo(0, 0); } }
     if (a === "remove") cat === "country" ? (st.country = "") : (st[cat] = st[cat].filter(v => v !== val));
     if (a === "reset") st = blank();
-    if (a === "more") st.shown += 20;
+    if (a === "more") st.shown += 10;
     if (a === "panel") open = !open;
     if (a === "say") return search(b.textContent);
     if (a === "ing") sh = { k: "ing", v: val };
@@ -72,7 +72,8 @@
     if (a === "close") sh = null;
     if (a === "tab") { tab = val; sh = null; scrollTo(0, 0); }
     if (a === "tcountry") { tc = val; tshown = 10; }
-    if (a === "tmore") tshown += 20;
+    if (a === "tmore") tshown += 10;
+    if (a === "dmore") dshown += 10;
     render();
   }
 
@@ -80,7 +81,7 @@
     const { out, found } = Query.parse(text, OB.syn, names);
     $("hint").textContent = found ? "" : `"${text}"에서 아는 말을 못 찾았어요. 고민이나 성분 이름으로 써 보세요.`;
     for (const c of Object.keys(out)) out[c].forEach(v => st[c].includes(v) || st[c].push(v));
-    st.shown = 20; tab = "find";
+    st.shown = 10; tab = "find";
     render();
   }
 
@@ -89,7 +90,7 @@
     if (e.key === "Escape" && sh) { sh = null; render(); }
     if (e.key === "Enter" && e.target.matches("li[data-act]")) act(e.target);
   });
-  $("dq").addEventListener("input", () => { $("dlist").innerHTML = Dict.list($("dq").value, count); });
+  $("dq").addEventListener("input", () => { dshown = 10; $("dlist").innerHTML = Dict.list($("dq").value, count, dshown); });
   $("form").addEventListener("submit", e => {
     e.preventDefault();
     const q = $("q").value.trim();

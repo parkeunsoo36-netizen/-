@@ -9,15 +9,15 @@ const Dict = (() => {
     return !q || (d.name + " " + d.en_name + words[id]).toLowerCase().replace(/\s+/g, "").includes(q);
   }
 
-  function list(q, count) {
+  function list(q, count, shown) {  // 처음 shown개, 더 보기로 10개씩
     q = q.toLowerCase().replace(/\s+/g, "");
     const ids = Object.keys(OB.dict).filter(id => count[id] && match(id, q))
       .sort((a, b) => Score.hotBonus(b) - Score.hotBonus(a) || count[b] - count[a]);
     if (!ids.length) return `<p class="empty">매장 제품에 든 성분 중에 "${esc(q)}"는 없어요.</p>`;
-    return `<h2 class="rh">매장 제품에 든 성분 <b>${ids.length}</b>개 <small>요즘 뜨는 순 · 많은 순</small></h2><ul class="dl">` + ids.map(id => {
+    return `<h2 class="rh">매장 제품에 든 성분 <b>${ids.length}</b>개 <small>요즘 뜨는 순 · 많은 순</small></h2><ul class="dl">` + ids.slice(0, shown).map(id => {
       const d = OB.dict[id], up = Score.hotBonus(id) ? `<em class="up">요즘 뜸</em>` : "";
       return `<li><button type="button" data-act="ing" data-val="${esc(id)}"><b>${esc(d.name)}</b>${up}<span>${esc(d.fx)}</span><small>${esc(d.en_name)} · 매장 ${count[id]}개</small></button></li>`;
-    }).join("") + `</ul>`;
+    }).join("") + `</ul>` + (ids.length > shown ? `<button type="button" class="more" data-act="dmore">더 보기 (${ids.length - shown}개 남음)</button>` : "");
   }
 
   return { list };

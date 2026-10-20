@@ -40,7 +40,7 @@ const Trend = (() => {
       <b><i class="trk">${rank}</i>${esc(title(c))}</b><span>${esc(OB.countries[c.c] || c.c)} · ${md(c.d)}${c.cat && c.cat !== "스킨케어" ? " · " + esc(c.cat) : ""}</span>${stats(c.st)}${store}</button></li>`;
   }
 
-  function page(tc, shown, count) {  // 인기 점수 순 (조회수·좋아요·댓글). 처음 10개, 더 보기로 20개씩
+  function page(tc, shown, count) {  // 인기 점수 순 (조회수·좋아요·댓글). 처음 10개, 더 보기로 10개씩
     const list = OB.feed.map((c, i) => [c, i]).filter(([c]) => !tc || c.c === tc)
       .sort(([a], [b]) => b.pop - a.pop || b.d.localeCompare(a.d));
     const more = list.length > shown ? `<button type="button" class="more" data-act="tmore">더 보기 (${list.length - shown}개 남음)</button>` : "";
