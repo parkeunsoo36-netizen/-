@@ -8,11 +8,12 @@ PREV = os.path.join(here, "data.prev.js")  # 어제 것 백업은 app/ 밖에 �
 
 def steps(excel):
     full = [["make_dicts.py"], ["excel_to_products.py", excel], ["apply_manual.py"], ["tag_products.py"]] if excel else []
-    return full + [["make_page_data.py"], ["check.py"]]
+    return full + [["make_page_data.py"], ["check.py"], ["lock.js"]]  # lock.js: 깃허브용 비밀번호 페이지
 
 def run(step):
     print("▶", " ".join(step), flush=True)
-    return subprocess.run([sys.executable, os.path.join(here, step[0]), *step[1:]], cwd=here).returncode == 0
+    exe = "node" if step[0].endswith(".js") else sys.executable
+    return subprocess.run([exe, os.path.join(here, step[0]), *step[1:]], cwd=here).returncode == 0
 
 def main(excel=None):
     if os.path.exists(DATA): shutil.copy(DATA, PREV)
