@@ -1,0 +1,10 @@
+# 매장 비공개 데이터 (진열 위치·가격·상품 목록) — 공개 저장소에 올리지 않음
+products.json
+key_ingredients.json
+missing_ingredients.csv
+video_stats.json
+app/data.js
+*.xlsx
+manual/직접입력.csv
+.env*
+__pycache__/
