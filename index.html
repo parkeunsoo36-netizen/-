@@ -123,6 +123,7 @@ nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--card
 nav.tabs button{font:inherit;font-family:var(--display);font-weight:700;font-size:13.5px;background:none;border:0;color:var(--muted);padding:9px 0 11px;cursor:pointer;display:grid;gap:1px;justify-items:center}
 nav.tabs button span{font-size:19px;line-height:1.2}
 nav.tabs button[aria-current="page"]{color:var(--accent);box-shadow:inset 0 3px 0 var(--accent)}
+.morebtn{display:block;width:100%;font:inherit;font-weight:700;background:var(--card);border:1px solid var(--line);color:var(--accent);border-radius:10px;padding:12px;margin:8px 0;cursor:pointer}
 </style>
 
 <div class="wrap">
@@ -311,6 +312,14 @@ function card(it){
   </article>`;
 }
 
+// 목록은 10개씩: 처음 10개, "더 보기"를 누를 때마다 10개 더. 조건(sig)이 바뀌면 다시 10개부터
+const STEP = 10, SHOW = {}, SIG = {};
+function paged(key, sig, items, fn){
+  if (SIG[key] !== sig) { SIG[key] = sig; SHOW[key] = STEP; }
+  const n = SHOW[key], left = items.length - n;
+  return items.slice(0, n).map(fn).join('') + (left > 0 ? `<button type="button" class="morebtn" data-more="${key}">더 보기 (${left}개 남음)</button>` : '');
+}
+
 function renderMain(){
   $('m-sub').textContent = `누적 ${ALL.length}개 트렌드 · 마지막 업데이트 ${LATEST}`;
   const base = ALL.filter(it => (st.c==='all'||it.c===st.c) && (st.cat==='전체'||it.cat===st.cat));
@@ -334,7 +343,7 @@ function renderMain(){
   const picked = [st.c!=='all'&&cname(st.c), st.kw!=='전체'&&st.kw, st.cat!=='전체'&&st.cat, st.q&&`"${st.q}"`].filter(Boolean);
   $('m-sum').innerHTML = `<span>${picked.length ? `<b>${esc(picked.join(' · '))}</b> 손님께 ` : ''}<b>${items.length}개</b> 추천</span>${picked.length ? '<button class="reset" type="button" id="m-reset">처음부터</button>' : ''}`;
   if (picked.length) $('m-reset').onclick = () => { Object.assign(st, {c:'all', kw:'전체', cat:'전체', q:''}); $('m-q').value=''; save(); render(); window.scrollTo(0,0); };
-  $('m-list').innerHTML = items.length ? items.slice(0, 80).map(card).join('') + (items.length > 80 ? `<div class="empty">상위 80개만 보여요. 조건을 더 골라 보세요.</div>` : '')
+  $('m-list').innerHTML = items.length ? paged('m', JSON.stringify([st.c, st.kw, st.cat, st.q, st.ms]), items, card)
     : '<div class="empty">조건에 맞는 항목이 없어요. 고민이나 국가를 바꿔 보세요.</div>';
 }
 
@@ -345,14 +354,14 @@ function renderPop(){
   chips($('p-pf'), PFS.filter(v => v==='전체' || POP.some(x => x.pf===v)), 'ppf', v => v, v => v==='전체' ? POP.length : POP.filter(x => x.pf===v).length);
   chips($('p-c'), ORDER, 'pc', cflag);
   $('p-count').textContent = `${list.length}개 영상`;
-  $('p-list').innerHTML = list.length ? list.map(({v, it, views, heat, pf}) => `<article class="card vcard">
+  $('p-list').innerHTML = list.length ? paged('p', JSON.stringify([st.ppf, st.pc, st.ps]), list, ({v, it, views, heat, pf}) => `<article class="card vcard">
     <div class="meta"><span class="pf ${esc(pf)}">${esc(pf)}</span>${v.date ? `<span class="date">${esc(v.date)}</span>` : ''}
       ${views ? `<span class="tag hot">조회수 ${views >= 1e4 ? Math.round(views/1e4) + '만' : views}</span>` : ''}<span class="tag hot">🔥 ${heat}개국 화제 성분</span><span class="tag cc">${esc(cflag(it.c))}</span></div>
     <a class="vt" href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title || '영상 보기')}</a>
     <div><span class="lab">관련 트렌드</span><h2>${esc(it.t)}</h2></div>
     <div class="mini">${it.ing.map(([k,e]) => { const x = info(e); return `<span>${esc(k)}${x ? ' · ' + esc(x.fx) : ''}</span>`; }).join('')}</div>
     <details class="more"><summary>추천 멘트 보기</summary><div class="inner">${pitchBox(it)}</div></details>
-  </article>`).join('') : '<div class="empty">조건에 맞는 인기 영상이 아직 없어요.</div>';
+  </article>`) : '<div class="empty">조건에 맞는 인기 영상이 아직 없어요.</div>';
 }
 
 function renderTrend(){
@@ -369,7 +378,7 @@ function renderTrend(){
   $('t-hot').innerHTML = top.map(([k,n]) => `<div class="hotrow" role="button" tabindex="0" data-kw="${esc(k)}"><span>${esc(k)}</span><div class="hotbar" style="width:${Math.max(6, n/max*100)}%"></div><span>${n}</span></div>`).join('') || '<div class="sub">아직 데이터가 없어요.</div>';
   $('t-hot').onclick = e => { const r = e.target.closest('[data-kw]'); if (!r) return; Object.assign(st, {view:'main', kw:r.dataset.kw, c:st.tc, cat:'전체', q:''}); $('m-q').value=''; save(); render(); window.scrollTo(0,0); };
   $('t-count').textContent = `${items.length}개 트렌드`;
-  $('t-list').innerHTML = items.length ? items.map(it => {
+  $('t-list').innerHTML = items.length ? paged('t', JSON.stringify([st.p, st.tc, st.ts]), items, it => {
     const q = encodeURIComponent(it.q || it.t);
     return `<article class="card">
     <div class="meta"><span class="date">${esc(it.date)}</span>${metaTags(it)}</div>
@@ -380,7 +389,7 @@ function renderTrend(){
       <a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">유튜브에서 찾기</a></div></div>
     <div class="mini">${it.ing.map(([k,e]) => `<span>${esc(k)}</span>`).join('')}</div>
     <div class="src">${srcLinks(it)}</div>
-  </article>`; }).join('') : '<div class="empty">이 기간에는 수집된 트렌드가 없어요.</div>';
+  </article>`; }) : '<div class="empty">이 기간에는 수집된 트렌드가 없어요.</div>';
 }
 
 function openIng(e){
@@ -409,6 +418,8 @@ document.querySelector('nav.tabs').onclick = e => { const b = e.target.closest('
 $('m-q').value = st.q || '';
 $('m-q').oninput = e => { st.q = e.target.value.trim().toLowerCase(); render(); };
 document.addEventListener('click', e => {
+  const mo = e.target.closest('[data-more]');
+  if (mo) { SHOW[mo.dataset.more] += STEP; render(); return; }
   const ing = e.target.closest('[data-inci]');
   if (ing) { openIng(ing.dataset.inci); return; }
   const big = e.target.closest('.big');
