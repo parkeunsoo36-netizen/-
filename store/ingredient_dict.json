@@ -1,0 +1,4437 @@
+{
+ "idebenone": {
+  "ko": [
+   "이데베논"
+  ],
+  "inci": [],
+  "fx": "강력한 항산화 성분, 탄력·광노화 케어",
+  "good": "칙칙하고 탄력 떨어진 피부",
+  "en": "strong antioxidant for firmer, brighter skin",
+  "caution": "",
+  "name": "이데베논",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "pearl": {
+  "ko": [
+   "진주 추출물"
+  ],
+  "inci": [],
+  "fx": "광채·톤 개선",
+  "good": "칙칙한 톤",
+  "en": "adds glow and evens tone",
+  "caution": "",
+  "name": "진주 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "bee venom": {
+  "ko": [
+   "봉독"
+  ],
+  "inci": [],
+  "fx": "탄력·진정 케어",
+  "good": "탄력 저하·트러블 피부",
+  "en": "firms and soothes",
+  "caution": "벌 알레르기 있으면 피하기",
+  "name": "봉독",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "charcoal": {
+  "ko": [
+   "숯"
+  ],
+  "inci": [],
+  "fx": "피지·노폐물 흡착",
+  "good": "지성·모공 고민",
+  "en": "absorbs oil and impurities",
+  "caution": "건성은 자주 쓰지 않기",
+  "name": "숯",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "bird's nest": {
+  "ko": [
+   "제비집 추출물"
+  ],
+  "inci": [],
+  "fx": "영양·보습, 탄력",
+  "good": "건조·탄력 저하 피부",
+  "en": "nourishes and hydrates",
+  "caution": "",
+  "name": "제비집 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "ferulic acid": {
+  "ko": [
+   "페룰릭애씨드"
+  ],
+  "inci": [],
+  "fx": "비타민C와 함께 쓰는 항산화, 톤 개선",
+  "good": "잡티·광노화",
+  "en": "antioxidant that boosts vitamin C",
+  "caution": "낮엔 선크림 함께",
+  "name": "페룰릭애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "lingzhi": {
+  "ko": [
+   "영지버섯 추출물"
+  ],
+  "inci": [],
+  "fx": "진정·영양",
+  "good": "지친·민감 피부",
+  "en": "soothes and nourishes",
+  "caution": "",
+  "name": "영지버섯 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "jellyfish collagen": {
+  "ko": [
+   "해파리 추출물"
+  ],
+  "inci": [],
+  "fx": "수분·탄력",
+  "good": "건조 피부",
+  "en": "hydrates and plumps",
+  "caution": "",
+  "name": "해파리 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "ethyl ascorbic acid": {
+  "ko": [
+   "에틸아스코빅애씨드"
+  ],
+  "inci": [
+   "3-O-Ethyl Ascorbic Acid"
+  ],
+  "fx": "안정적인 비타민C 유도체, 톤 개선·광채",
+  "good": "칙칙한 톤, 잡티 고민",
+  "en": "brightens dull skin with stable vitamin C",
+  "caution": "낮엔 선크림 함께",
+  "name": "에틸아스코빅애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "argireline": {
+  "ko": [
+   "아르지렐린",
+   "아세틸헥사펩타이드-8"
+  ],
+  "inci": [
+   "Acetyl Hexapeptide-8",
+   "Acetyl Hexapeptide-8 (Argireline)"
+  ],
+  "fx": "표정 주름 부위 탄력 케어",
+  "good": "눈가·이마 주름 고민",
+  "en": "helps smooth the look of expression lines",
+  "caution": "",
+  "name": "아르지렐린",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력",
+   "다크서클·눈가"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "hair": {
+  "ko": [
+   "아세틸테트라펩타이드-3"
+  ],
+  "inci": [
+   "Acetyl Tetrapeptide-3"
+  ],
+  "fx": "두피 컨디션·모발 볼륨 케어",
+  "good": "모발 볼륨·두피 고민",
+  "en": "supports a healthy scalp and fuller-looking hair",
+  "caution": "두피에 꾸준히 사용",
+  "name": "아세틸테트라펩타이드-3",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "eye": {
+  "ko": [
+   "아세틸테트라펩타이드-5"
+  ],
+  "inci": [
+   "Acetyl Tetrapeptide-5"
+  ],
+  "fx": "눈가 붓기·다크서클 케어",
+  "good": "눈가 붓기·피로한 눈가",
+  "en": "helps reduce the look of under-eye puffiness",
+  "caution": "",
+  "name": "아세틸테트라펩타이드-5",
+  "time": "상관없음",
+  "concerns": [
+   "다크서클·눈가"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "adenosine": {
+  "ko": [
+   "아데노신"
+  ],
+  "inci": [
+   "Adenosine"
+  ],
+  "fx": "주름 개선 기능성, 탄력 케어",
+  "good": "주름·탄력 고민 피부",
+  "en": "helps reduce wrinkles and firm the skin",
+  "caution": "",
+  "name": "아데노신",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "algae extract": {
+  "ko": [
+   "알진(해조 유래)"
+  ],
+  "inci": [
+   "Algin"
+  ],
+  "fx": "보습막 형성, 촉촉하고 쫀쫀한 제형",
+  "good": "건조 피부, 모델링팩 사용",
+  "en": "forms a moisturizing film on the skin",
+  "caution": "",
+  "name": "알진",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "allantoin": {
+  "ko": [
+   "알란토인"
+  ],
+  "inci": [
+   "Allantoin"
+  ],
+  "fx": "진정·보습, 거칠어진 피부 정돈",
+  "good": "민감·건조·거친 피부",
+  "en": "soothes and softens rough skin",
+  "caution": "",
+  "name": "알란토인",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "aloe vera": {
+  "ko": [
+   "알로에베라"
+  ],
+  "inci": [
+   "Aloe Barbadensis Leaf Extract"
+  ],
+  "fx": "수분 공급·열감 진정",
+  "good": "햇볕 쬔 피부, 건조·민감 피부",
+  "en": "hydrates and cools down heated skin",
+  "caution": "",
+  "name": "알로에베라",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "alpha arbutin": {
+  "ko": [
+   "알파-알부틴"
+  ],
+  "inci": [
+   "Alpha-Arbutin"
+  ],
+  "fx": "미백 기능성, 잡티·기미 톤 개선",
+  "good": "잡티·칙칙한 톤",
+  "en": "helps fade dark spots and brighten skin",
+  "caution": "낮엔 선크림 함께",
+  "name": "알파-알부틴",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "silicone": {
+  "ko": [
+   "다이메티콘올",
+   "사이클로펜타실록산",
+   "아모디메치콘"
+  ],
+  "inci": [
+   "Amodimethicone",
+   "Cyclopentasiloxane",
+   "Dimethiconol"
+  ],
+  "fx": "손상 모발 코팅, 부드럽고 윤기",
+  "good": "손상·푸석한 모발",
+  "en": "coats damaged hair for smoothness and shine",
+  "caution": "",
+  "name": "아모디메치콘",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "anemarrhena root extract": {
+  "ko": [
+   "지모뿌리추출물(볼루필린)"
+  ],
+  "inci": [
+   "Anemarrhena Asphodeloides Root Extract"
+  ],
+  "fx": "볼륨감·탄력 케어로 알려진 성분",
+  "good": "볼륨·탄력 고민 부위",
+  "en": "helps add a plumper, fuller look",
+  "caution": "",
+  "name": "지모뿌리추출물",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "apple cider vinegar": {
+  "ko": [
+   "사과식초"
+  ],
+  "inci": [
+   "Apple Cider Vinegar"
+  ],
+  "fx": "약산성으로 각질·두피 정돈, 윤기",
+  "good": "두피 개운함, 푸석한 모발",
+  "en": "gently clarifies and adds shine",
+  "caution": "눈에 들어가지 않게 주의",
+  "name": "사과식초",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "arbutin": {
+  "ko": [
+   "알부틴"
+  ],
+  "inci": [
+   "Arbutin"
+  ],
+  "fx": "미백 기능성, 칙칙한 톤 개선",
+  "good": "잡티·칙칙한 톤",
+  "en": "helps brighten skin and fade dark spots",
+  "caution": "낮엔 선크림 함께",
+  "name": "알부틴",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "argan oil": {
+  "ko": [
+   "아르간오일"
+  ],
+  "inci": [
+   "Argania Spinosa Kernel Oil"
+  ],
+  "fx": "영양·보습, 피부와 모발에 윤기",
+  "good": "건성 피부, 푸석한 모발",
+  "en": "nourishes and adds shine to skin and hair",
+  "caution": "",
+  "name": "아르간오일",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "arginine": {
+  "ko": [
+   "아르기닌"
+  ],
+  "inci": [
+   "Arginine"
+  ],
+  "fx": "보습 성분(아미노산), pH 조절",
+  "good": "건조 피부, 모든 피부",
+  "en": "helps keep skin hydrated",
+  "caution": "",
+  "name": "아르기닌",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "mugwort": {
+  "ko": [
+   "쑥추출물"
+  ],
+  "inci": [
+   "Artemisia Princeps Extract",
+   "Artemisia Princeps Leaf Extract"
+  ],
+  "fx": "열감·붉은기 진정, 피부 컨디션 케어",
+  "good": "민감·붉은기·트러블 피부",
+  "en": "calms redness and soothes sensitive skin",
+  "caution": "",
+  "name": "쑥추출물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "mugwort water": {
+  "ko": [
+   "쑥잎수"
+  ],
+  "inci": [
+   "Artemisia Princeps Leaf Water"
+  ],
+  "fx": "열감·붉은기 진정, 수분 공급",
+  "good": "민감·붉은기·트러블 피부",
+  "en": "calms redness and hydrates sensitive skin",
+  "caution": "",
+  "name": "쑥잎수",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "vitamin c": {
+  "ko": [
+   "비타민C",
+   "비타민C 유도체",
+   "비타민C(아스코빅애씨드)",
+   "비타민C·유도체"
+  ],
+  "inci": [
+   "Ascorbic Acid",
+   "Ascorbic Acid / 3-O-Ethyl Ascorbic Acid",
+   "Ascorbyl Glucoside",
+   "Vitamin C"
+  ],
+  "fx": "강력한 항산화, 톤 개선·광채",
+  "good": "칙칙한 톤, 잡티 고민",
+  "en": "brightens skin and fights dullness",
+  "caution": "산화되기 쉬우니 개봉 후 빨리, 낮엔 선크림, 민감 피부 따끔 주의",
+  "name": "비타민C",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "asiaticoside": {
+  "ko": [
+   "아시아티코사이드"
+  ],
+  "inci": [
+   "Asiaticoside"
+  ],
+  "fx": "병풀 유효성분, 진정·장벽 케어",
+  "good": "민감·트러블·손상 피부",
+  "en": "soothes skin and supports recovery",
+  "caution": "",
+  "name": "아시아티코사이드",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "oat extract": {
+  "ko": [
+   "귀리추출물"
+  ],
+  "inci": [
+   "Avena Sativa (Oat) Kernel Extract"
+  ],
+  "fx": "가려움·건조함 진정, 보습",
+  "good": "건조·민감·가려운 피부",
+  "en": "soothes itchy, dry, sensitive skin",
+  "caution": "",
+  "name": "귀리추출물",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "oat flour": {
+  "ko": [
+   "귀리가루"
+  ],
+  "inci": [
+   "Avena Sativa (Oat) Kernel Flour"
+  ],
+  "fx": "부드러운 진정·보습, 순한 세정",
+  "good": "건조·민감 피부",
+  "en": "gently soothes and softens dry skin",
+  "caution": "",
+  "name": "귀리가루",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "neem leaf": {
+  "ko": [
+   "님잎추출물"
+  ],
+  "inci": [
+   "Azadirachta Indica Leaf Extract"
+  ],
+  "fx": "트러블 피부 진정·정화",
+  "good": "지성·트러블 피부",
+  "en": "helps purify and calm blemish-prone skin",
+  "caution": "",
+  "name": "님잎추출물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "azelaic acid": {
+  "ko": [
+   "아젤라익애씨드"
+  ],
+  "inci": [
+   "Azelaic Acid"
+  ],
+  "fx": "트러블·붉은기 진정, 톤 정돈",
+  "good": "트러블·붉은기·잡티 피부",
+  "en": "calms redness and breakouts and evens tone",
+  "caution": "처음엔 소량, 따끔할 수 있어요",
+  "name": "아젤라익애씨드",
+  "time": "밤",
+  "concerns": [
+   "잡티·미백",
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": true,
+  "sebum": false,
+  "skin": []
+ },
+ "bakuchiol": {
+  "ko": [
+   "바쿠치올"
+  ],
+  "inci": [
+   "Bakuchiol"
+  ],
+  "fx": "식물성 레티놀 대안, 탄력·주름 케어",
+  "good": "레티놀이 부담스러운 민감 피부",
+  "en": "firms skin like a gentle plant-based retinol",
+  "caution": "자극 적어 아침저녁 사용 가능",
+  "name": "바쿠치올",
+  "time": "밤",
+  "concerns": [
+   "민감·진정",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "bentonite clay": {
+  "ko": [
+   "벤토나이트"
+  ],
+  "inci": [
+   "Bentonite"
+  ],
+  "fx": "피지·노폐물 흡착, 모공 정돈",
+  "good": "지성·모공 고민 피부",
+  "en": "absorbs excess oil and cleans out pores",
+  "caution": "주 1~2회, 완전히 마르기 전 세안",
+  "name": "벤토나이트",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "berry extract": {
+  "ko": [
+   "베리추출물"
+  ],
+  "inci": [
+   "Berry Fruit Extract"
+  ],
+  "fx": "항산화로 생기 있는 피부",
+  "good": "칙칙·지친 피부",
+  "en": "helps protect and refresh tired skin",
+  "caution": "",
+  "name": "베리추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "beta-glucan": {
+  "ko": [
+   "베타글루칸"
+  ],
+  "inci": [
+   "Beta-Glucan"
+  ],
+  "fx": "깊은 보습·진정, 장벽 강화",
+  "good": "건조·민감 피부",
+  "en": "deeply hydrates and calms sensitive skin",
+  "caution": "",
+  "name": "베타글루칸",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "betaine": {
+  "ko": [
+   "베타인"
+  ],
+  "inci": [
+   "Betaine"
+  ],
+  "fx": "순한 보습, 수분 유지",
+  "good": "건조·민감 피부",
+  "en": "keeps skin hydrated and comfortable",
+  "caution": "",
+  "name": "베타인",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "betaine salicylate": {
+  "ko": [
+   "베타인살리실레이트"
+  ],
+  "inci": [
+   "Betaine Salicylate"
+  ],
+  "fx": "순한 BHA, 모공 각질·피지 케어",
+  "good": "모공·블랙헤드·트러블 피부",
+  "en": "gently unclogs pores and controls oil",
+  "caution": "처음엔 주 2~3회",
+  "name": "베타인살리실레이트",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "bifida": {
+  "ko": [
+   "비피다발효여과물",
+   "비피다발효용해물"
+  ],
+  "inci": [
+   "Bifida Ferment Filtrate",
+   "Bifida Ferment Lysate"
+  ],
+  "fx": "피부 장벽·컨디션 케어, 보습",
+  "good": "지친·민감 피부, 장벽 약한 피부",
+  "en": "strengthens the barrier and revitalizes skin",
+  "caution": "",
+  "name": "비피다발효여과물",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "probiotics": {
+  "ko": [
+   "락토바실러스 람노서스",
+   "비피도박테리움 락티스",
+   "프로바이오틱스(유산균)"
+  ],
+  "inci": [
+   "Bifidobacterium Lactis",
+   "Bifidobacterium lactis",
+   "Lactobacillus Rhamnosus",
+   "Lactobacillus rhamnosus",
+   "Lactobacillus spp. / Bifidobacterium spp."
+  ],
+  "fx": "먹는 이너뷰티, 장 건강에 도움을 줄 수 있어요",
+  "good": "장 건강·컨디션 관리",
+  "en": "may help support gut health",
+  "caution": "섭취량 지켜서 꾸준히",
+  "name": "유산균",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "biotin": {
+  "ko": [
+   "비오티노일트라이펩타이드-1",
+   "비오틴"
+  ],
+  "inci": [
+   "Biotin",
+   "Biotinoyl Tripeptide-1"
+  ],
+  "fx": "먹는 이너뷰티, 모발·손톱·피부 건강에 도움을 줄 수 있어요",
+  "good": "모발·손톱 고민, 이너뷰티",
+  "en": "may support healthy hair, nails and skin",
+  "caution": "섭취량 지켜서, 혈액검사 전엔 알리기",
+  "name": "비오틴",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "bond repair": {
+  "ko": [
+   "비스아미노프로필디글라이콜다이말리에이트"
+  ],
+  "inci": [
+   "Bis-Aminopropyl Diglycol Dimaleate"
+  ],
+  "fx": "손상 모발 결합 케어, 튼튼한 모발",
+  "good": "염색·펌 손상 모발",
+  "en": "repairs and strengthens damaged hair",
+  "caution": "",
+  "name": "비스아미노프로필디글라이콜다이말리에이트",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "tinosorb s": {
+  "ko": [
+   "비스에칠헥실옥시페놀메톡시페닐트리아진(티노소브S)"
+  ],
+  "inci": [
+   "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine"
+  ],
+  "fx": "UVA·UVB 모두 차단, 안정적인 유기 필터",
+  "good": "자외선 차단 필요한 모든 피부",
+  "en": "blocks both UVA and UVB rays",
+  "caution": "2~3시간마다 덧바르기",
+  "name": "비스에칠헥실옥시페놀메톡시페닐트리아진",
+  "time": "상관없음",
+  "concerns": [
+   "자외선"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "bisabolol": {
+  "ko": [
+   "비사볼롤"
+  ],
+  "inci": [
+   "Bisabolol"
+  ],
+  "fx": "카모마일 유래 진정, 자극 완화",
+  "good": "민감·붉은기 피부",
+  "en": "soothes and calms irritated skin",
+  "caution": "",
+  "name": "비사볼롤",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "butylene glycol": {
+  "ko": [
+   "부틸렌글라이콜"
+  ],
+  "inci": [
+   "Butylene Glycol"
+  ],
+  "fx": "보습·흡수를 돕는 기본 성분",
+  "good": "모든 피부",
+  "en": "helps hydrate and improves product texture",
+  "caution": "",
+  "name": "부틸렌글라이콜",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "shea butter": {
+  "ko": [
+   "시어버터"
+  ],
+  "inci": [
+   "Butyrospermum Parkii (Shea) Butter"
+  ],
+  "fx": "풍부한 영양·보습막으로 건조 방지",
+  "good": "건성·악건성 피부, 거친 손발",
+  "en": "deeply nourishes and protects very dry skin",
+  "caution": "지성 피부는 소량만",
+  "name": "시어버터",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "caffeine": {
+  "ko": [
+   "카페인"
+  ],
+  "inci": [
+   "Caffeine"
+  ],
+  "fx": "붓기·눈가 피로 완화, 두피 활력",
+  "good": "눈가 붓기, 두피 케어",
+  "en": "helps depuff and energize tired skin",
+  "caution": "",
+  "name": "카페인",
+  "time": "상관없음",
+  "concerns": [
+   "다크서클·눈가"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "calcium sulfate": {
+  "ko": [
+   "칼슘설페이트"
+  ],
+  "inci": [
+   "Calcium Sulfate"
+  ],
+  "fx": "제형·사용감을 위한 미네랄 성분",
+  "good": "모든 피부",
+  "en": "helps give the product its texture",
+  "caution": "",
+  "name": "칼슘설페이트",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "calcium": {
+  "ko": [
+   "칼슘 성분"
+  ],
+  "inci": [
+   "Calcium …(Calcium으로 시작하는 성분)"
+  ],
+  "fx": "미네랄 성분, 제형 안정·피부 컨디션 보조",
+  "good": "모든 피부",
+  "en": "supports formula texture and skin condition",
+  "caution": "",
+  "name": "칼슘 성분",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "camellia oil": {
+  "ko": [
+   "동백오일"
+  ],
+  "inci": [
+   "Camellia Japonica Seed Oil"
+  ],
+  "fx": "가벼운 영양·보습, 피부·모발 윤기",
+  "good": "건조 피부, 푸석한 모발",
+  "en": "nourishes and adds shine to skin and hair",
+  "caution": "",
+  "name": "동백오일",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "green tea": {
+  "ko": [
+   "녹차추출물"
+  ],
+  "inci": [
+   "Camellia Sinensis Leaf Extract"
+  ],
+  "fx": "항산화·진정, 피지 케어",
+  "good": "지성·트러블·민감 피부",
+  "en": "soothes skin and helps control oil",
+  "caution": "",
+  "name": "녹차추출물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "green tea seed oil": {
+  "ko": [
+   "녹차씨오일"
+  ],
+  "inci": [
+   "Camellia Sinensis Seed Oil"
+  ],
+  "fx": "가볍게 보습, 산뜻한 영양",
+  "good": "건조·복합성 피부",
+  "en": "moisturizes with a light, non-greasy feel",
+  "caution": "",
+  "name": "녹차씨오일",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "coconut-derived oil": {
+  "ko": [
+   "카프릴릭/카프릭트라이글리세라이드"
+  ],
+  "inci": [
+   "Caprylic/Capric Triglyceride"
+  ],
+  "fx": "가볍고 산뜻한 보습 오일 성분",
+  "good": "모든 피부",
+  "en": "softens skin with a light, silky feel",
+  "caution": "",
+  "name": "카프릴릭/카프릭트라이글리세라이드",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "lha": {
+  "ko": [
+   "카프릴로일살리실릭애씨드(LHA)"
+  ],
+  "inci": [
+   "Capryloyl Salicylic Acid"
+  ],
+  "fx": "순한 BHA 유도체, 각질·모공 케어",
+  "good": "모공·결 고민 피부",
+  "en": "gently exfoliates and refines pores",
+  "caution": "처음엔 주 2~3회, 낮엔 선크림",
+  "name": "카프릴로일살리실릭애씨드",
+  "time": "밤",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": true,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "carbomer": {
+  "ko": [
+   "카보머"
+  ],
+  "inci": [
+   "Carbomer"
+  ],
+  "fx": "젤 제형을 만드는 증점제",
+  "good": "모든 피부",
+  "en": "gives the product a smooth gel texture",
+  "caution": "",
+  "name": "카보머",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "caviar extract": {
+  "ko": [
+   "캐비어추출물"
+  ],
+  "inci": [
+   "Caviar Extract"
+  ],
+  "fx": "영양·보습, 윤기 있는 피부",
+  "good": "건조·탄력 고민 피부",
+  "en": "nourishes skin for a smooth, glowing look",
+  "caution": "",
+  "name": "캐비어추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "cellulose": {
+  "ko": [
+   "셀룰로오스"
+  ],
+  "inci": [
+   "Cellulose"
+  ],
+  "fx": "식물 유래 제형·사용감 보조 성분",
+  "good": "모든 피부",
+  "en": "helps give the product its texture",
+  "caution": "",
+  "name": "셀룰로오스",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "hydrocolloid": {
+  "ko": [
+   "하이드로콜로이드"
+  ],
+  "inci": [
+   "Cellulose Gum (Hydrocolloid)",
+   "Hydrocolloid"
+  ],
+  "fx": "진물·피지 흡수, 트러블 부위 보호",
+  "good": "올라온 트러블, 상처 부위 보호",
+  "en": "absorbs fluid and protects blemishes",
+  "caution": "깨끗이 세안 후 부착, 부풀면 교체",
+  "name": "하이드로콜로이드",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "centella": {
+  "ko": [
+   "병풀 정량 추출물(TECA)",
+   "병풀엑소좀",
+   "병풀추출물"
+  ],
+  "inci": [
+   "Centella Asiatica Exosome / Leaf Extract Exosome",
+   "Centella Asiatica Extract",
+   "Centella Asiatica Extract (Asiaticoside, Asiatic Acid, Madecassic Acid)"
+  ],
+  "fx": "진정·장벽 케어, 피부 컨디션 회복",
+  "good": "민감·지친 피부",
+  "en": "calms and revitalizes stressed skin",
+  "caution": "",
+  "name": "병풀(시카)",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "ceramide": {
+  "ko": [
+   "세라마이드EOP",
+   "세라마이드NP"
+  ],
+  "inci": [
+   "Ceramide EOP",
+   "Ceramide NP"
+  ],
+  "fx": "피부 장벽 강화·수분 손실 방지",
+  "good": "건조·민감·장벽 손상 피부",
+  "en": "strengthens the skin barrier and locks in moisture",
+  "caution": "",
+  "name": "세라마이드",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지",
+   "민감성"
+  ]
+ },
+ "chamomile": {
+  "ko": [
+   "카모마일추출물"
+  ],
+  "inci": [
+   "Chamomilla Recutita (Matricaria) Flower Extract"
+  ],
+  "fx": "순한 진정, 붉은기 완화",
+  "good": "민감·붉은기 피부",
+  "en": "gently calms redness and irritation",
+  "caution": "국화과 알레르기는 확인",
+  "name": "카모마일추출물",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "chia seed": {
+  "ko": [
+   "치아씨드"
+  ],
+  "inci": [
+   "Chia Seed"
+  ],
+  "fx": "먹는 이너뷰티, 식이섬유·포만감에 도움을 줄 수 있어요",
+  "good": "식단·이너뷰티 관리",
+  "en": "may support fullness with fiber",
+  "caution": "물과 함께 섭취",
+  "name": "치아씨드",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "cholesterol": {
+  "ko": [
+   "콜레스테롤"
+  ],
+  "inci": [
+   "Cholesterol"
+  ],
+  "fx": "세라마이드와 함께 장벽 지질 보충",
+  "good": "건조·장벽 손상 피부",
+  "en": "replenishes barrier lipids with ceramides",
+  "caution": "",
+  "name": "콜레스테롤",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "green pigment": {
+  "ko": [
+   "크로뮴옥사이드그린"
+  ],
+  "inci": [
+   "Chromium Oxide Greens"
+  ],
+  "fx": "초록 색소, 붉은기 커버 색 보정",
+  "good": "붉은기 커버 메이크업",
+  "en": "adds green tint to neutralize redness",
+  "caution": "",
+  "name": "크로뮴옥사이드그린",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "citric acid": {
+  "ko": [
+   "시트릭애씨드"
+  ],
+  "inci": [
+   "Citric Acid"
+  ],
+  "fx": "pH 조절, 고농도시 순한 각질 정돈",
+  "good": "모든 피부",
+  "en": "balances pH and gently smooths skin",
+  "caution": "",
+  "name": "시트릭애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "bergamot oil": {
+  "ko": [
+   "베르가모트오일"
+  ],
+  "inci": [
+   "Citrus Aurantium Bergamia (Bergamot) Fruit Oil"
+  ],
+  "fx": "상큼한 향과 기분 전환, 향 성분",
+  "good": "시트러스 향 좋아하는 분",
+  "en": "adds a fresh citrus scent",
+  "caution": "광과민 가능, 바른 부위 햇빛 주의",
+  "name": "베르가모트오일",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "green tangerine": {
+  "ko": [
+   "청귤추출물"
+  ],
+  "inci": [
+   "Citrus Tangerina Extract"
+  ],
+  "fx": "비타민 풍부, 맑은 톤·생기",
+  "good": "칙칙한 톤, 피곤한 피부",
+  "en": "brightens and refreshes dull skin",
+  "caution": "",
+  "name": "청귤추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "coconut-based cleanser": {
+  "ko": [
+   "코카미도프로필베타인"
+  ],
+  "inci": [
+   "Cocamidopropyl Betaine"
+  ],
+  "fx": "순한 세정·풍성한 거품",
+  "good": "모든 피부·두피",
+  "en": "cleanses gently with rich foam",
+  "caution": "",
+  "name": "코카미도프로필베타인",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "coco-glucoside": {
+  "ko": [
+   "코코글루코사이드"
+  ],
+  "inci": [
+   "Coco-Glucoside"
+  ],
+  "fx": "식물 유래 순한 세정 성분",
+  "good": "민감 피부, 순한 세정 원하는 분",
+  "en": "cleanses gently without stripping",
+  "caution": "",
+  "name": "코코글루코사이드",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "coconut oil": {
+  "ko": [
+   "코코넛오일"
+  ],
+  "inci": [
+   "Cocos Nucifera (Coconut) Oil"
+  ],
+  "fx": "보습·영양, 모발 윤기",
+  "good": "건성 피부, 푸석한 모발",
+  "en": "moisturizes skin and smooths hair",
+  "caution": "여드름 피부는 얼굴 사용 주의",
+  "name": "코코넛오일",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "collagen": {
+  "ko": [
+   "가수분해콜라겐",
+   "수용성콜라겐",
+   "식물 유래 저분자 콜라겐",
+   "저분자 콜라겐 펩타이드",
+   "저분자 피쉬콜라겐",
+   "콜라겐"
+  ],
+  "inci": [
+   "Collagen / Hydrolyzed Collagen",
+   "Collagen Peptide",
+   "Collagen Peptide (plant-derived)",
+   "Hydrolyzed Collagen",
+   "Hydrolyzed Collagen (Collagen Peptide)",
+   "Hydrolyzed Collagen (fish)",
+   "Hydrolyzed Fish Collagen Peptide",
+   "Soluble Collagen"
+  ],
+  "fx": "피부 표면 보습막으로 촉촉·탄력감 부여",
+  "good": "건조·탄력 고민 피부",
+  "en": "moisturizes and gives skin a bouncy feel",
+  "caution": "먹는 제품이면 섭취량 지켜서",
+  "name": "콜라겐",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "copper": {
+  "ko": [
+   "구리펩타이드"
+  ],
+  "inci": [
+   "Copper Tripeptide-1"
+  ],
+  "fx": "피부 회복·탄력 케어, 결 개선",
+  "good": "탄력 저하·지친 피부",
+  "en": "supports firmness and skin renewal",
+  "caution": "고농도 산·비타민C와 같은 단계 피하기",
+  "name": "구리펩타이드",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "turmeric": {
+  "ko": [
+   "강황추출물"
+  ],
+  "inci": [
+   "Curcuma Longa (Turmeric) Root Extract"
+  ],
+  "fx": "항산화·진정, 생기 있는 톤",
+  "good": "칙칙·트러블 피부",
+  "en": "brightens and calms dull skin",
+  "caution": "",
+  "name": "강황추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "cysteine": {
+  "ko": [
+   "시스테인"
+  ],
+  "inci": [
+   "Cysteine"
+  ],
+  "fx": "먹는 이너뷰티, 모발·피부 건강에 도움을 줄 수 있어요",
+  "good": "모발·손톱 고민, 이너뷰티",
+  "en": "may support healthy hair and skin",
+  "caution": "섭취량 지켜서",
+  "name": "시스테인",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "panthenol": {
+  "ko": [
+   "판테놀"
+  ],
+  "inci": [
+   "Dexpanthenol",
+   "Dexpanthenol / Panthenol",
+   "Panthenol"
+  ],
+  "fx": "진정·보습, 손상된 장벽 케어",
+  "good": "건조·민감·자극받은 피부",
+  "en": "soothes and moisturizes stressed skin",
+  "caution": "",
+  "name": "판테놀",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지",
+   "민감성"
+  ]
+ },
+ "diatomaceous earth": {
+  "ko": [
+   "규조토"
+  ],
+  "inci": [
+   "Diatomaceous Earth"
+  ],
+  "fx": "피지·노폐물 흡착, 매트한 마무리",
+  "good": "지성·모공 고민 피부",
+  "en": "absorbs excess oil and mattifies",
+  "caution": "건성은 주 1회 정도",
+  "name": "규조토",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "uvinul a plus": {
+  "ko": [
+   "다이에칠아미노하이드록시벤조일헥실벤조에이트(유비눌A플러스)"
+  ],
+  "inci": [
+   "Diethylamino Hydroxybenzoyl Hexyl Benzoate"
+  ],
+  "fx": "UVA 차단 유기 필터, 백탁 없음",
+  "good": "자외선 차단 필요한 모든 피부",
+  "en": "blocks UVA rays with no white cast",
+  "caution": "2~3시간마다 덧바르기",
+  "name": "다이에칠아미노하이드록시벤조일헥실벤조에이트",
+  "time": "상관없음",
+  "concerns": [
+   "자외선"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "licorice extract": {
+  "ko": [
+   "다이포타슘글리시리제이트(감초 유래)"
+  ],
+  "inci": [
+   "Dipotassium Glycyrrhizate"
+  ],
+  "fx": "감초 유래 진정, 붉은기 완화",
+  "good": "민감·붉은기 피부",
+  "en": "calms redness and irritation",
+  "caution": "",
+  "name": "다이포타슘글리시리제이트",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "brewer's yeast": {
+  "ko": [
+   "건조효모(맥주효모)"
+  ],
+  "inci": [
+   "Dried Yeast"
+  ],
+  "fx": "먹는 이너뷰티, 모발·두피 영양에 도움을 줄 수 있어요",
+  "good": "모발 고민, 이너뷰티",
+  "en": "may support healthy hair from within",
+  "caution": "섭취량 지켜서",
+  "name": "건조효모",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "ectoin": {
+  "ko": [
+   "엑토인"
+  ],
+  "inci": [
+   "Ectoin"
+  ],
+  "fx": "수분 보호막·외부 자극 방어, 진정",
+  "good": "민감·건조, 환경 스트레스 피부",
+  "en": "protects and hydrates stressed skin",
+  "caution": "",
+  "name": "엑토인",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "elastin": {
+  "ko": [
+   "가수분해엘라스틴",
+   "엘라스틴",
+   "엘라스틴 펩타이드"
+  ],
+  "inci": [
+   "Elastin",
+   "Elastin Peptide",
+   "Hydrolyzed Elastin"
+  ],
+  "fx": "보습·피부 유연함, 탄력감 부여",
+  "good": "탄력·건조 고민 피부",
+  "en": "helps skin feel supple and bouncy",
+  "caution": "",
+  "name": "엘라스틴",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "ergothioneine": {
+  "ko": [
+   "에르고티오네인"
+  ],
+  "inci": [
+   "Ergothioneine"
+  ],
+  "fx": "강력 항산화, 환경 스트레스 케어",
+  "good": "칙칙·지친 피부, 안티에이징",
+  "en": "protects skin from daily environmental stress",
+  "caution": "",
+  "name": "에르고티오네인",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "octinoxate": {
+  "ko": [
+   "에칠헥실메톡시신나메이트(옥티녹세이트)"
+  ],
+  "inci": [
+   "Ethylhexyl Methoxycinnamate"
+  ],
+  "fx": "UVB 차단 유기 필터, 가벼운 발림",
+  "good": "가벼운 선크림 원하는 분",
+  "en": "blocks UVB rays with a light texture",
+  "caution": "UVA 필터와 함께 사용, 민감 피부 주의",
+  "name": "에칠헥실메톡시신나메이트",
+  "time": "상관없음",
+  "concerns": [
+   "자외선"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "emollient": {
+  "ko": [
+   "에칠헥실팔미테이트"
+  ],
+  "inci": [
+   "Ethylhexyl Palmitate"
+  ],
+  "fx": "부드러운 발림성 주는 에몰리언트",
+  "good": "건조 피부",
+  "en": "softens skin and improves spreadability",
+  "caution": "",
+  "name": "에칠헥실팔미테이트",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "uvinul t 150": {
+  "ko": [
+   "에칠헥실트리아존(유비눌T150)"
+  ],
+  "inci": [
+   "Ethylhexyl Triazone"
+  ],
+  "fx": "UVB 차단 유기 필터, 안정적·백탁 없음",
+  "good": "자외선 차단 필요한 모든 피부",
+  "en": "blocks UVB rays with no white cast",
+  "caution": "2~3시간마다 덧바르기",
+  "name": "에칠헥실트리아존",
+  "time": "상관없음",
+  "concerns": [
+   "자외선"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "exosome": {
+  "ko": [
+   "엑소좀"
+  ],
+  "inci": [
+   "Exosome"
+  ],
+  "fx": "피부 컨디션 회복·탄력·결 케어",
+  "good": "지친·푸석한 피부, 안티에이징",
+  "en": "helps revitalize skin and improve texture",
+  "caution": "",
+  "name": "엑소좀",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "fig": {
+  "ko": [
+   "무화과추출물"
+  ],
+  "inci": [
+   "Ficus Carica (Fig) Fruit Extract"
+  ],
+  "fx": "보습·부드러운 결 정돈",
+  "good": "건조·거친 피부",
+  "en": "moisturizes and softens skin texture",
+  "caution": "",
+  "name": "무화과추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "fragrance": {
+  "ko": [
+   "향료"
+  ],
+  "inci": [
+   "Fragrance",
+   "Fragrance (Parfum)"
+  ],
+  "fx": "제품에 향을 더하는 성분 (효능 성분 아님)",
+  "good": "향 있는 제품 좋아하는 분",
+  "en": "adds a pleasant scent to the product",
+  "caution": "민감·향 알레르기 피부는 무향 추천",
+  "name": "향료",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "prebiotic fiber": {
+  "ko": [
+   "프락토올리고당"
+  ],
+  "inci": [
+   "Fructooligosaccharides"
+  ],
+  "fx": "먹는 이너뷰티, 유산균 먹이로 장 건강에 도움을 줄 수 있어요",
+  "good": "장 건강·컨디션 관리",
+  "en": "may help feed good gut bacteria",
+  "caution": "섭취량 지켜서",
+  "name": "프락토올리고당",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "galactomyces": {
+  "ko": [
+   "갈락토미세스발효여과물"
+  ],
+  "inci": [
+   "Galactomyces Ferment Filtrate"
+  ],
+  "fx": "피부결·톤 개선, 맑은 광채",
+  "good": "칙칙한 톤, 거친 결 피부",
+  "en": "refines texture and brightens dull skin",
+  "caution": "",
+  "name": "갈락토미세스발효여과물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "garcinia cambogia": {
+  "ko": [
+   "가르시니아캄보지아추출물(HCA)"
+  ],
+  "inci": [
+   "Garcinia Cambogia Extract (HCA)"
+  ],
+  "fx": "먹는 이너뷰티, 체지방 관리에 도움을 줄 수 있어요",
+  "good": "체중·식단 관리 중인 분",
+  "en": "may help support body fat management",
+  "caution": "섭취량 지켜서, 간 질환·임산부는 피하기",
+  "name": "가르시니아캄보지아추출물",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "ginsenosides": {
+  "ko": [
+   "진세노사이드"
+  ],
+  "inci": [
+   "Ginsenosides Rg1, Rb1, Rg3"
+  ],
+  "fx": "인삼 핵심성분, 피부 활력·탄력 케어",
+  "good": "탄력 저하·지친 피부",
+  "en": "revitalizes skin and supports firmness",
+  "caution": "",
+  "name": "진세노사이드",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "pha": {
+  "ko": [
+   "글루코노락톤(PHA)"
+  ],
+  "inci": [
+   "Gluconolactone",
+   "Gluconolactone (PHA)"
+  ],
+  "fx": "가장 순한 각질 케어 + 보습",
+  "good": "민감 피부, 각질 케어 입문자",
+  "en": "gently exfoliates while hydrating",
+  "caution": "민감 피부도 비교적 OK, 낮엔 선크림",
+  "name": "글루코노락톤",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지",
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "glutathione": {
+  "ko": [
+   "글루타치온"
+  ],
+  "inci": [
+   "Glutathione"
+  ],
+  "fx": "먹는 이너뷰티, 항산화·맑은 피부톤에 도움을 줄 수 있어요",
+  "good": "칙칙한 톤, 이너뷰티",
+  "en": "may help support a clearer, brighter tone",
+  "caution": "섭취량 지켜서 꾸준히",
+  "name": "글루타치온",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "glycerin": {
+  "ko": [
+   "글리세린"
+  ],
+  "inci": [
+   "Glycerin"
+  ],
+  "fx": "기본 보습 성분, 수분 끌어당김",
+  "good": "모든 피부",
+  "en": "draws moisture into the skin",
+  "caution": "",
+  "name": "글리세린",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "black bean": {
+  "ko": [
+   "검은콩추출물"
+  ],
+  "inci": [
+   "Glycine Max (Soybean) Seed Extract"
+  ],
+  "fx": "보습·탄력·영양 케어",
+  "good": "건조·탄력 고민 피부·모발",
+  "en": "nourishes and helps improve firmness",
+  "caution": "",
+  "name": "검은콩추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "soybean": {
+  "ko": [
+   "콩추출물"
+  ],
+  "inci": [
+   "Glycine Soja (Soybean) Seed Extract"
+  ],
+  "fx": "보습·탄력 케어, 피부결 개선",
+  "good": "건조·탄력 고민 피부",
+  "en": "nourishes skin and helps improve firmness",
+  "caution": "",
+  "name": "콩추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "glycolic acid": {
+  "ko": [
+   "글라이콜릭애씨드(AHA)"
+  ],
+  "inci": [
+   "Glycolic Acid"
+  ],
+  "fx": "각질 제거, 매끈한 결·맑은 톤",
+  "good": "거친 결, 칙칙한 톤",
+  "en": "exfoliates for smoother, brighter skin",
+  "caution": "처음엔 주 2~3회, 낮엔 선크림 필수",
+  "name": "글라이콜릭애씨드",
+  "time": "밤",
+  "concerns": [
+   "잡티·미백",
+   "모공·피지"
+  ],
+  "strong": true,
+  "sebum": false,
+  "skin": []
+ },
+ "glycylglycine": {
+  "ko": [
+   "글리실글리신"
+  ],
+  "inci": [
+   "Glycylglycine"
+  ],
+  "fx": "피부 컨디션·보습 보조 펩타이드",
+  "good": "건조·지친 피부",
+  "en": "helps condition and hydrate skin",
+  "caution": "",
+  "name": "글리실글리신",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "licorice root": {
+  "ko": [
+   "감초추출물",
+   "유용성감초추출물"
+  ],
+  "inci": [
+   "Glycyrrhiza Glabra (Licorice) Root Extract",
+   "Glycyrrhiza Glabra Root Extract"
+  ],
+  "fx": "진정·톤 개선, 붉은기 완화",
+  "good": "민감·붉은기, 칙칙한 톤",
+  "en": "calms redness and brightens skin tone",
+  "caution": "",
+  "name": "감초추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "azulene": {
+  "ko": [
+   "구아이아줄렌"
+  ],
+  "inci": [
+   "Guaiazulene"
+  ],
+  "fx": "카모마일 유래 진정, 붉은기 완화",
+  "good": "민감·붉은기·트러블 피부",
+  "en": "calms redness and soothes irritation",
+  "caution": "",
+  "name": "구아이아줄렌",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "witch hazel": {
+  "ko": [
+   "위치하젤수"
+  ],
+  "inci": [
+   "Hamamelis Virginiana (Witch Hazel) Water"
+  ],
+  "fx": "피지·모공 정돈, 산뜻한 진정",
+  "good": "지성·모공 고민 피부",
+  "en": "tightens pores and refreshes oily skin",
+  "caution": "",
+  "name": "위치하젤수",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "sunflower oil": {
+  "ko": [
+   "해바라기씨오일"
+  ],
+  "inci": [
+   "Helianthus Annuus (Sunflower) Seed Oil"
+  ],
+  "fx": "가벼운 보습, 장벽 지질 보충",
+  "good": "건조·민감 피부",
+  "en": "moisturizes and supports the skin barrier",
+  "caution": "",
+  "name": "해바라기씨오일",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "sea buckthorn": {
+  "ko": [
+   "산자나무열매추출물(비타나무)"
+  ],
+  "inci": [
+   "Hippophae Rhamnoides Fruit Extract"
+  ],
+  "fx": "비타민 풍부, 영양·광채",
+  "good": "칙칙·건조한 피부",
+  "en": "nourishes and boosts radiance",
+  "caution": "",
+  "name": "산자나무열매추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "honey": {
+  "ko": [
+   "꿀",
+   "꿀추출물"
+  ],
+  "inci": [
+   "Honey",
+   "Honey Extract"
+  ],
+  "fx": "보습·영양, 부드러운 피부",
+  "good": "건조·거친 피부",
+  "en": "moisturizes and softens skin",
+  "caution": "",
+  "name": "꿀",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "barley": {
+  "ko": [
+   "보리추출물"
+  ],
+  "inci": [
+   "Hordeum Vulgare Extract"
+  ],
+  "fx": "보습·피부 컨디션 케어",
+  "good": "건조·지친 피부",
+  "en": "hydrates and conditions skin",
+  "caution": "",
+  "name": "보리추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "heartleaf": {
+  "ko": [
+   "어성초추출물"
+  ],
+  "inci": [
+   "Houttuynia Cordata Extract"
+  ],
+  "fx": "트러블 피부 진정·피지 케어",
+  "good": "지성·트러블 피부",
+  "en": "calms breakouts and soothes oily skin",
+  "caution": "",
+  "name": "어성초추출물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "지성",
+   "복합성",
+   "민감성"
+  ]
+ },
+ "hyaluronic acid": {
+  "ko": [
+   "가수분해히알루론산",
+   "히알루론산",
+   "히알루론산 복합(8종)"
+  ],
+  "inci": [
+   "Hyaluronic Acid",
+   "Hydrolyzed Hyaluronic Acid",
+   "Sodium Hyaluronate",
+   "Sodium Hyaluronate / Hydrolyzed Hyaluronic Acid 등"
+  ],
+  "fx": "수분을 끌어당겨 촉촉함·속당김 완화",
+  "good": "건조·속당김 피부, 모든 피부",
+  "en": "draws in moisture and plumps up dry skin",
+  "caution": "바른 뒤 크림으로 수분을 잠가주세요",
+  "name": "히알루론산",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "rice bran oil": {
+  "ko": [
+   "쌀겨오일",
+   "쌀겨오일(경화)"
+  ],
+  "inci": [
+   "Hydrogenated Rice Bran Oil",
+   "Oryza Sativa (Rice) Bran Oil"
+  ],
+  "fx": "보습·제형에 부드러운 밀착감",
+  "good": "건조 피부",
+  "en": "softens skin and adds a smooth feel",
+  "caution": "",
+  "name": "쌀겨오일",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "keratin": {
+  "ko": [
+   "가수분해케라틴"
+  ],
+  "inci": [
+   "Hydrolyzed Keratin"
+  ],
+  "fx": "손상 모발 단백질 보충, 튼튼한 모발",
+  "good": "손상·끊기는 모발",
+  "en": "strengthens and repairs damaged hair",
+  "caution": "",
+  "name": "가수분해케라틴",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "protein": {
+  "ko": [
+   "가수분해단백질"
+  ],
+  "inci": [
+   "Hydrolyzed Protein"
+  ],
+  "fx": "피부·모발 보습, 손상 케어",
+  "good": "건조 피부, 손상 모발",
+  "en": "conditions and strengthens hair and skin",
+  "caution": "",
+  "name": "가수분해단백질",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rice protein": {
+  "ko": [
+   "가수분해쌀단백질"
+  ],
+  "inci": [
+   "Hydrolyzed Rice Protein"
+  ],
+  "fx": "모발 볼륨·윤기, 피부 보습",
+  "good": "가늘고 힘없는 모발",
+  "en": "adds volume and conditions hair",
+  "caution": "",
+  "name": "가수분해쌀단백질",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "silk protein": {
+  "ko": [
+   "가수분해실크"
+  ],
+  "inci": [
+   "Hydrolyzed Silk"
+  ],
+  "fx": "매끄러운 사용감·보습, 윤기",
+  "good": "건조 피부, 푸석한 모발",
+  "en": "smooths and adds a silky shine",
+  "caution": "",
+  "name": "가수분해실크",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "spicule": {
+  "ko": [
+   "해면 스피큘"
+  ],
+  "inci": [
+   "Hydrolyzed Sponge",
+   "Spongilla",
+   "Spongilla Lacustris Powder"
+  ],
+  "fx": "미세 침상 구조로 각질 정돈·흡수 도움",
+  "good": "결·모공·흡수력 고민 피부",
+  "en": "refines skin texture and boosts absorption",
+  "caution": "따끔할 수 있어요, 민감 피부는 소량부터",
+  "name": "해면 스피큘",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "hpr": {
+  "ko": [
+   "HPR(하이드록시피나콜론레티노에이트)"
+  ],
+  "inci": [
+   "Hydroxypinacolone Retinoate"
+  ],
+  "fx": "순한 레티노이드, 주름·탄력·결 개선",
+  "good": "레티놀 입문자, 탄력·주름 고민",
+  "en": "smooths wrinkles with a gentler retinoid",
+  "caution": "밤에만, 다음날 선크림 필수",
+  "name": "HPR",
+  "time": "밤",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": true,
+  "sebum": false,
+  "skin": []
+ },
+ "hypochlorous acid": {
+  "ko": [
+   "하이포아염소산"
+  ],
+  "inci": [
+   "Hypochlorous Acid"
+  ],
+  "fx": "피부 표면 정화·진정 케어",
+  "good": "트러블·민감 피부",
+  "en": "cleanses and calms the skin surface",
+  "caution": "",
+  "name": "하이포아염소산",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "iron oxides": {
+  "ko": [
+   "산화철"
+  ],
+  "inci": [
+   "Iron Oxides (CI 77491, CI 77492, CI 77499)",
+   "Iron Oxides (CI 77492, CI 77491)"
+  ],
+  "fx": "피부톤에 맞는 색을 내는 색소",
+  "good": "메이크업·톤업 제품 사용자",
+  "en": "gives makeup its natural skin-tone color",
+  "caution": "",
+  "name": "산화철",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "kaolin clay": {
+  "ko": [
+   "카올린"
+  ],
+  "inci": [
+   "Kaolin"
+  ],
+  "fx": "순하게 피지·노폐물 흡착",
+  "good": "지성·복합성, 모공 고민",
+  "en": "gently absorbs oil and cleans pores",
+  "caution": "주 1~2회, 완전히 마르기 전 세안",
+  "name": "카올린",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "kojic acid": {
+  "ko": [
+   "코직애씨드"
+  ],
+  "inci": [
+   "Kojic Acid"
+  ],
+  "fx": "톤 개선, 잡티·칙칙함 케어",
+  "good": "잡티·칙칙한 톤",
+  "en": "helps fade dark spots and brighten skin",
+  "caution": "민감 피부 패치테스트, 낮엔 선크림",
+  "name": "코직애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "korean red ginseng": {
+  "ko": [
+   "홍삼농축액"
+  ],
+  "inci": [
+   "Korean Red Ginseng Extract (Ginsenoside)",
+   "Panax Ginseng Root Extract (Red Ginseng)",
+   "Red Ginseng Extract (Panax Ginseng Root)"
+  ],
+  "fx": "먹는 이너뷰티, 활력·컨디션 관리에 도움을 줄 수 있어요",
+  "good": "피로감, 컨디션 관리 필요한 분",
+  "en": "may help support energy and daily vitality",
+  "caution": "건강기능식품 섭취량 지켜서, 복용 약 있으면 확인",
+  "name": "홍삼농축액",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "l-cystine": {
+  "ko": [
+   "엘-시스틴"
+  ],
+  "inci": [
+   "L-Cystine"
+  ],
+  "fx": "먹는 이너뷰티, 모발·손톱 건강에 도움을 줄 수 있어요",
+  "good": "모발·손톱 고민, 이너뷰티",
+  "en": "may support healthy hair and nails",
+  "caution": "섭취량 지켜서",
+  "name": "엘-시스틴",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "lactic acid": {
+  "ko": [
+   "락틱애씨드(AHA)"
+  ],
+  "inci": [
+   "Lactic Acid"
+  ],
+  "fx": "순한 각질 제거 + 보습, 매끈한 결",
+  "good": "거친 결, 건조·칙칙한 피부",
+  "en": "gently exfoliates and hydrates",
+  "caution": "처음엔 주 2~3회, 낮엔 선크림",
+  "name": "락틱애씨드",
+  "time": "밤",
+  "concerns": [
+   "잡티·미백",
+   "모공·피지",
+   "보습·건조"
+  ],
+  "strong": true,
+  "sebum": false,
+  "skin": []
+ },
+ "lactobacillus": {
+  "ko": [
+   "락토바실러스발효물",
+   "락토바실러스발효용해물"
+  ],
+  "inci": [
+   "Lactobacillus Ferment",
+   "Lactobacillus Ferment Lysate"
+  ],
+  "fx": "피부 장벽·컨디션 케어",
+  "good": "민감·지친 피부",
+  "en": "supports a healthy, balanced skin barrier",
+  "caution": "",
+  "name": "락토바실러스발효물",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "fermented rice": {
+  "ko": [
+   "쌀발효여과물"
+  ],
+  "inci": [
+   "Lactobacillus/Rice Ferment Filtrate"
+  ],
+  "fx": "보습·맑은 톤, 피부결 정돈",
+  "good": "칙칙·건조한 피부",
+  "en": "hydrates and brightens dull skin",
+  "caution": "",
+  "name": "쌀발효여과물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "fermented soybean": {
+  "ko": [
+   "콩발효추출물"
+  ],
+  "inci": [
+   "Lactobacillus/Soybean Ferment Extract"
+  ],
+  "fx": "영양·탄력 케어, 피부결 정돈",
+  "good": "탄력 저하·건조 피부",
+  "en": "nourishes skin and helps improve firmness",
+  "caution": "",
+  "name": "콩발효추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "lactobionic acid": {
+  "ko": [
+   "락토바이오닉애씨드(PHA)"
+  ],
+  "inci": [
+   "Lactobionic Acid"
+  ],
+  "fx": "순한 각질 케어 + 보습·항산화",
+  "good": "민감 피부, 각질 케어 입문자",
+  "en": "gently exfoliates while hydrating",
+  "caution": "민감 피부도 비교적 OK, 낮엔 선크림",
+  "name": "락토바이오닉애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지",
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "lavender oil": {
+  "ko": [
+   "라벤더오일"
+  ],
+  "inci": [
+   "Lavandula Angustifolia (Lavender) Oil"
+  ],
+  "fx": "편안한 향, 기분 전환",
+  "good": "라벤더 향 좋아하는 분",
+  "en": "adds a calming lavender scent",
+  "caution": "민감 피부는 패치테스트",
+  "name": "라벤더오일",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "lecithin": {
+  "ko": [
+   "레시틴(리포좀)"
+  ],
+  "inci": [
+   "Lecithin"
+  ],
+  "fx": "보습, 유효성분 전달 보조",
+  "good": "건조 피부, 모든 피부",
+  "en": "moisturizes and helps deliver actives",
+  "caution": "",
+  "name": "레시틴",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "linalool": {
+  "ko": [
+   "리날룰"
+  ],
+  "inci": [
+   "Linalool"
+  ],
+  "fx": "꽃 향을 내는 향 성분",
+  "good": "향 있는 제품 좋아하는 분",
+  "en": "adds a soft floral scent",
+  "caution": "향 알레르기 있으면 피하기",
+  "name": "리날룰",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "madecassoside": {
+  "ko": [
+   "마데카소사이드"
+  ],
+  "inci": [
+   "Madecassoside"
+  ],
+  "fx": "병풀 유효성분, 진정·장벽 회복",
+  "good": "민감·트러블·손상 피부",
+  "en": "soothes skin and supports barrier recovery",
+  "caution": "",
+  "name": "마데카소사이드",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "민감성"
+  ]
+ },
+ "mandelic acid": {
+  "ko": [
+   "만델릭애씨드(AHA)"
+  ],
+  "inci": [
+   "Mandelic Acid"
+  ],
+  "fx": "분자가 큰 순한 AHA, 각질·트러블 케어",
+  "good": "민감·트러블 피부 각질 케어",
+  "en": "gently exfoliates and helps with breakouts",
+  "caution": "처음엔 주 2~3회, 낮엔 선크림",
+  "name": "만델릭애씨드",
+  "time": "밤",
+  "concerns": [
+   "여드름",
+   "모공·피지",
+   "민감·진정"
+  ],
+  "strong": true,
+  "sebum": false,
+  "skin": []
+ },
+ "tea tree": {
+  "ko": [
+   "티트리잎추출물"
+  ],
+  "inci": [
+   "Melaleuca Alternifolia (Tea Tree) Leaf Extract"
+  ],
+  "fx": "트러블 피부 진정·피지 케어",
+  "good": "지성·트러블 피부",
+  "en": "helps calm breakouts and oily skin",
+  "caution": "",
+  "name": "티트리잎추출물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "tea tree oil": {
+  "ko": [
+   "티트리오일"
+  ],
+  "inci": [
+   "Melaleuca Alternifolia (Tea Tree) Leaf Oil"
+  ],
+  "fx": "피지·트러블 피부 진정, 상쾌한 사용감",
+  "good": "지성·트러블 피부",
+  "en": "helps calm breakouts and refresh oily skin",
+  "caution": "원액은 희석해서, 민감 피부 패치테스트",
+  "name": "티트리오일",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "tea tree water": {
+  "ko": [
+   "티트리잎수"
+  ],
+  "inci": [
+   "Melaleuca Alternifolia (Tea Tree) Leaf Water"
+  ],
+  "fx": "트러블 피부 진정·산뜻한 수분",
+  "good": "지성·트러블 피부",
+  "en": "calms breakouts and refreshes oily skin",
+  "caution": "",
+  "name": "티트리잎수",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "menthol": {
+  "ko": [
+   "멘톨"
+  ],
+  "inci": [
+   "Menthol"
+  ],
+  "fx": "청량감·쿨링, 개운한 사용감",
+  "good": "두피 열감, 시원한 사용감 선호",
+  "en": "gives an instant cooling, refreshing feel",
+  "caution": "민감 피부·눈가는 주의",
+  "name": "멘톨",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "lotus flower": {
+  "ko": [
+   "연꽃추출물"
+  ],
+  "inci": [
+   "Nelumbo Nucifera Flower Extract"
+  ],
+  "fx": "진정·보습, 맑은 피부",
+  "good": "민감·건조 피부",
+  "en": "soothes and hydrates skin",
+  "caution": "",
+  "name": "연꽃추출물",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "niacinamide": {
+  "ko": [
+   "나이아신아마이드"
+  ],
+  "inci": [
+   "Niacinamide"
+  ],
+  "fx": "미백 기능성, 피지 조절·톤을 고르게",
+  "good": "칙칙한 톤, 지성·모공 고민",
+  "en": "controls oil and evens out skin tone",
+  "caution": "고농도는 처음에 따끔할 수 있어요",
+  "name": "나이아신아마이드",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "nad": {
+  "ko": [
+   "NAD"
+  ],
+  "inci": [
+   "Nicotinamide Adenine Dinucleotide"
+  ],
+  "fx": "먹는 이너뷰티, 활력·안티에이징 관리에 도움을 줄 수 있어요",
+  "good": "활력·안티에이징 관심",
+  "en": "may support energy and healthy aging",
+  "caution": "섭취량 지켜서",
+  "name": "NAD",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "nmn": {
+  "ko": [
+   "NMN"
+  ],
+  "inci": [
+   "Nicotinamide Mononucleotide"
+  ],
+  "fx": "먹는 이너뷰티, 활력·안티에이징 관리에 도움을 줄 수 있어요",
+  "good": "활력·안티에이징 관심",
+  "en": "may support energy and healthy aging",
+  "caution": "섭취량 지켜서",
+  "name": "NMN",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "olive oil": {
+  "ko": [
+   "올리브오일"
+  ],
+  "inci": [
+   "Olea Europaea (Olive) Fruit Oil"
+  ],
+  "fx": "영양·보습, 건조 피부 보호",
+  "good": "건성·악건성 피부",
+  "en": "nourishes and moisturizes dry skin",
+  "caution": "여드름 피부는 소량만",
+  "name": "올리브오일",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "egf": {
+  "ko": [
+   "sh-올리고펩타이드-1(EGF)",
+   "올리고펩타이드-1(EGF)"
+  ],
+  "inci": [
+   "Oligopeptide-1",
+   "sh-Oligopeptide-1"
+  ],
+  "fx": "피부 컨디션 회복·탄력 케어",
+  "good": "지친·탄력 저하 피부",
+  "en": "helps renew and firm tired skin",
+  "caution": "",
+  "name": "EGF",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rice bran": {
+  "ko": [
+   "쌀겨추출물"
+  ],
+  "inci": [
+   "Oryza Sativa (Rice) Bran Extract"
+  ],
+  "fx": "맑은 톤·보습, 부드러운 결",
+  "good": "칙칙·건조한 피부",
+  "en": "brightens and softens skin",
+  "caution": "",
+  "name": "쌀겨추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rice bran water": {
+  "ko": [
+   "쌀겨수"
+  ],
+  "inci": [
+   "Oryza Sativa (Rice) Bran Water"
+  ],
+  "fx": "맑은 톤·수분 공급",
+  "good": "칙칙·건조한 피부",
+  "en": "hydrates and brightens dull skin",
+  "caution": "",
+  "name": "쌀겨수",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rice extract": {
+  "ko": [
+   "쌀추출물"
+  ],
+  "inci": [
+   "Oryza Sativa (Rice) Extract"
+  ],
+  "fx": "맑은 톤·보습, 매끈한 결",
+  "good": "칙칙·건조한 피부",
+  "en": "brightens and smooths skin",
+  "caution": "",
+  "name": "쌀추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rice powder": {
+  "ko": [
+   "쌀가루"
+  ],
+  "inci": [
+   "Oryza Sativa (Rice) Powder"
+  ],
+  "fx": "피지 흡수·부드러운 각질 정돈",
+  "good": "지성·거친 결 피부",
+  "en": "absorbs oil and gently polishes skin",
+  "caution": "",
+  "name": "쌀가루",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rice & ginseng": {
+  "ko": [
+   "쌀·인삼추출물"
+  ],
+  "inci": [
+   "Oryza Sativa Extract / Panax Ginseng Root Extract"
+  ],
+  "fx": "맑은 톤과 활력·탄력 케어",
+  "good": "칙칙·탄력 저하 피부",
+  "en": "brightens and revitalizes tired skin",
+  "caution": "",
+  "name": "쌀·인삼추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "emulsifier": {
+  "ko": [
+   "PEG-20글리세릴트라이아이소스테아레이트",
+   "유화제",
+   "폴리글리세릴-10다이올리에이트"
+  ],
+  "inci": [
+   "PEG-20 Glyceryl Triisostearate",
+   "Polyglyceryl-10 Dioleate",
+   "Sorbeth-30 Tetraoleate / PEG-20 Glyceryl Triisostearate"
+  ],
+  "fx": "클렌징 오일 유화제, 물에 깔끔히 헹굼",
+  "good": "클렌징 오일 사용자",
+  "en": "helps cleansing oil rinse off cleanly",
+  "caution": "",
+  "name": "유화제",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "palmitic acid": {
+  "ko": [
+   "팔미틱애씨드(지방산)"
+  ],
+  "inci": [
+   "Palmitic Acid"
+  ],
+  "fx": "피부 지질 보충·제형 안정",
+  "good": "건조 피부",
+  "en": "replenishes lipids and softens skin",
+  "caution": "",
+  "name": "팔미틱애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "matrixyl": {
+  "ko": [
+   "팔미토일펜타펩타이드-4(매트릭실)"
+  ],
+  "inci": [
+   "Palmitoyl Pentapeptide-4"
+  ],
+  "fx": "탄력·잔주름 케어 펩타이드",
+  "good": "탄력·잔주름 고민",
+  "en": "helps firm skin and smooth fine lines",
+  "caution": "",
+  "name": "팔미토일펜타펩타이드-4",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "peptide": {
+  "ko": [
+   "팔미토일테트라펩타이드-7",
+   "팔미토일트라이펩타이드-1",
+   "팔미토일트라이펩타이드-5"
+  ],
+  "inci": [
+   "Palmitoyl Tetrapeptide-7",
+   "Palmitoyl Tripeptide-1",
+   "Palmitoyl Tripeptide-5"
+  ],
+  "fx": "진정·탄력 케어 펩타이드",
+  "good": "탄력 저하·민감 피부",
+  "en": "helps calm and firm the skin",
+  "caution": "",
+  "name": "펩타이드",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "ginseng": {
+  "ko": [
+   "인삼추출물"
+  ],
+  "inci": [
+   "Panax Ginseng Root Extract"
+  ],
+  "fx": "피부에 활력·윤기, 탄력 케어",
+  "good": "푸석·탄력 저하 피부",
+  "en": "revitalizes tired skin and boosts radiance",
+  "caution": "",
+  "name": "인삼추출물",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "papaya enzyme": {
+  "ko": [
+   "파파인(파파야 효소)"
+  ],
+  "inci": [
+   "Papain"
+  ],
+  "fx": "효소로 순하게 각질 정돈",
+  "good": "거친 결, 각질 고민",
+  "en": "gently dissolves dead skin cells",
+  "caution": "주 1~2회, 민감 피부는 소량부터",
+  "name": "파파인",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "petroleum jelly": {
+  "ko": [
+   "바셀린(페트롤라툼)"
+  ],
+  "inci": [
+   "Petrolatum"
+  ],
+  "fx": "강력한 보호막으로 수분 증발 차단",
+  "good": "악건성, 갈라진 입술·피부",
+  "en": "seals in moisture and protects very dry skin",
+  "caution": "마지막 단계에 소량",
+  "name": "바셀린",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "mung bean": {
+  "ko": [
+   "녹두추출물"
+  ],
+  "inci": [
+   "Phaseolus Radiatus Seed Extract"
+  ],
+  "fx": "진정·피지 케어, 맑은 피부",
+  "good": "지성·트러블·민감 피부",
+  "en": "calms skin and refreshes oily areas",
+  "caution": "",
+  "name": "녹두추출물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "amla": {
+  "ko": [
+   "암라(인도구스베리)"
+  ],
+  "inci": [
+   "Phyllanthus Emblica Fruit Extract"
+  ],
+  "fx": "비타민C 풍부, 항산화·맑은 톤",
+  "good": "칙칙한 톤 피부",
+  "en": "brightens and protects dull skin",
+  "caution": "",
+  "name": "암라",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "vitamin k": {
+  "ko": [
+   "비타민K"
+  ],
+  "inci": [
+   "Phytonadione"
+  ],
+  "fx": "다크서클·붉은기 케어로 쓰이는 성분",
+  "good": "다크서클·붉은기 고민",
+  "en": "helps reduce the look of dark circles",
+  "caution": "",
+  "name": "비타민K",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "다크서클·눈가"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "phytosphingosine": {
+  "ko": [
+   "피토스핑고신"
+  ],
+  "inci": [
+   "Phytosphingosine"
+  ],
+  "fx": "장벽 강화·진정, 트러블 케어",
+  "good": "민감·트러블·장벽 약한 피부",
+  "en": "supports the barrier and calms breakouts",
+  "caution": "",
+  "name": "피토스핑고신",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "pdrn": {
+  "ko": [
+   "PDRN(소듐디엔에이)"
+  ],
+  "inci": [
+   "Polydeoxyribonucleotide",
+   "Sodium DNA"
+  ],
+  "fx": "피부 컨디션 회복·탄력·결 케어",
+  "good": "지친·푸석한 피부, 탄력 고민",
+  "en": "helps revitalize skin and improve texture",
+  "caution": "",
+  "name": "PDRN",
+  "time": "상관없음",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "polyglutamic acid": {
+  "ko": [
+   "폴리글루타믹애씨드"
+  ],
+  "inci": [
+   "Polyglutamic Acid"
+  ],
+  "fx": "히알루론산보다 강한 수분막, 촉촉함 유지",
+  "good": "건조·속당김 피부",
+  "en": "holds moisture for long-lasting hydration",
+  "caution": "",
+  "name": "폴리글루타믹애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "purslane": {
+  "ko": [
+   "쇠비름추출물(마치현)"
+  ],
+  "inci": [
+   "Portulaca Oleracea Extract"
+  ],
+  "fx": "진정·붉은기 완화",
+  "good": "민감·트러블·붉은기 피부",
+  "en": "soothes irritation and calms redness",
+  "caution": "",
+  "name": "쇠비름추출물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "azelaic acid derivative": {
+  "ko": [
+   "포타슘아젤로일다이글리시네이트"
+  ],
+  "inci": [
+   "Potassium Azeloyl Diglycinate"
+  ],
+  "fx": "피지 조절·톤 정돈, 순한 아젤라익 유도체",
+  "good": "지성·트러블·붉은기 피부",
+  "en": "controls oil and evens out skin tone",
+  "caution": "",
+  "name": "포타슘아젤로일다이글리시네이트",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "여드름",
+   "모공·피지",
+   "민감·진정"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "propanediol": {
+  "ko": [
+   "프로판다이올"
+  ],
+  "inci": [
+   "Propanediol"
+  ],
+  "fx": "보습·흡수를 돕는 기본 성분",
+  "good": "모든 피부",
+  "en": "helps hydrate and improves product texture",
+  "caution": "",
+  "name": "프로판다이올",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "propolis": {
+  "ko": [
+   "프로폴리스추출물"
+  ],
+  "inci": [
+   "Propolis Extract"
+  ],
+  "fx": "영양·진정, 윤기 있는 피부",
+  "good": "건조·트러블·지친 피부",
+  "en": "nourishes and soothes for a healthy glow",
+  "caution": "꿀·벌 알레르기 있으면 피하기",
+  "name": "프로폴리스추출물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "apricot seed": {
+  "ko": [
+   "살구씨추출물"
+  ],
+  "inci": [
+   "Prunus Armeniaca (Apricot) Seed Extract"
+  ],
+  "fx": "보습·부드러운 피부결",
+  "good": "건조·거친 피부",
+  "en": "moisturizes and softens skin",
+  "caution": "",
+  "name": "살구씨추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "pomegranate": {
+  "ko": [
+   "석류추출물"
+  ],
+  "inci": [
+   "Punica Granatum Fruit Extract"
+  ],
+  "fx": "항산화·탄력, 생기 있는 피부",
+  "good": "칙칙·탄력 저하 피부",
+  "en": "revitalizes skin with antioxidants",
+  "caution": "",
+  "name": "석류추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "apple water": {
+  "ko": [
+   "사과수"
+  ],
+  "inci": [
+   "Pyrus Malus (Apple) Fruit Water"
+  ],
+  "fx": "수분 공급·산뜻한 사용감",
+  "good": "건조·칙칙한 피부",
+  "en": "hydrates and refreshes skin",
+  "caution": "",
+  "name": "사과수",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "resveratrol": {
+  "ko": [
+   "레스베라트롤"
+  ],
+  "inci": [
+   "Resveratrol"
+  ],
+  "fx": "강력 항산화, 탄력·생기 케어",
+  "good": "안티에이징, 칙칙한 피부",
+  "en": "protects skin with powerful antioxidants",
+  "caution": "",
+  "name": "레스베라트롤",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "retinal": {
+  "ko": [
+   "레티날"
+  ],
+  "inci": [
+   "Retinal"
+  ],
+  "fx": "레티놀보다 빠른 효과, 주름·탄력·결 개선",
+  "good": "레티놀 경험자, 주름·탄력 고민",
+  "en": "smooths wrinkles and renews skin faster",
+  "caution": "밤에만, 다음날 선크림 필수, 임산부 피하기",
+  "name": "레티날",
+  "time": "밤",
+  "concerns": [
+   "노화·탄력"
+  ],
+  "strong": true,
+  "sebum": false,
+  "skin": []
+ },
+ "retinol": {
+  "ko": [
+   "레티놀"
+  ],
+  "inci": [
+   "Retinol"
+  ],
+  "fx": "주름 개선 기능성, 탄력·피부결 개선",
+  "good": "주름·탄력·모공 고민",
+  "en": "smooths wrinkles and refines skin texture",
+  "caution": "밤에만, 다음날 선크림 필수, 임산부 피하기",
+  "name": "레티놀",
+  "time": "밤",
+  "concerns": [
+   "모공·피지",
+   "노화·탄력"
+  ],
+  "strong": true,
+  "sebum": false,
+  "skin": []
+ },
+ "vitamin b2": {
+  "ko": [
+   "리보플라빈(비타민B2)"
+  ],
+  "inci": [
+   "Riboflavin"
+  ],
+  "fx": "먹는 이너뷰티, 피부·점막 건강에 도움을 줄 수 있어요",
+  "good": "피부 컨디션 관리, 이너뷰티",
+  "en": "may support healthy skin from within",
+  "caution": "섭취량 지켜서",
+  "name": "리보플라빈",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rose water": {
+  "ko": [
+   "다마스크장미꽃수"
+  ],
+  "inci": [
+   "Rosa Damascena Flower Water"
+  ],
+  "fx": "수분 공급·은은한 장미 향",
+  "good": "건조 피부, 장미 향 선호",
+  "en": "hydrates and refreshes with a rose scent",
+  "caution": "",
+  "name": "다마스크장미꽃수",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rosemary oil": {
+  "ko": [
+   "로즈마리오일"
+  ],
+  "inci": [
+   "Rosmarinus Officinalis (Rosemary) Leaf Oil"
+  ],
+  "fx": "두피 상쾌함·개운한 향",
+  "good": "두피 케어, 상쾌한 향 선호",
+  "en": "refreshes the scalp with an herbal scent",
+  "caution": "민감 피부는 희석해서",
+  "name": "로즈마리오일",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "rosemary": {
+  "ko": [
+   "로즈마리추출물"
+  ],
+  "inci": [
+   "Rosmarinus Officinalis Leaf Extract"
+  ],
+  "fx": "항산화·상쾌한 컨디셔닝",
+  "good": "지성 피부·두피",
+  "en": "refreshes and protects skin and scalp",
+  "caution": "",
+  "name": "로즈마리추출물",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "salicylic acid": {
+  "ko": [
+   "살리실릭애씨드(BHA)"
+  ],
+  "inci": [
+   "Salicylic Acid"
+  ],
+  "fx": "모공 속 피지·각질 제거, 트러블 케어",
+  "good": "지성·모공·블랙헤드·트러블 피부",
+  "en": "unclogs pores and helps prevent breakouts",
+  "caution": "처음엔 주 2~3회, 건조하면 보습 강화",
+  "name": "살리실릭애씨드",
+  "time": "밤",
+  "concerns": [
+   "여드름",
+   "모공·피지"
+  ],
+  "strong": true,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "willow bark": {
+  "ko": [
+   "버드나무껍질수"
+  ],
+  "inci": [
+   "Salix Alba (Willow) Bark Water"
+  ],
+  "fx": "산뜻한 피지·모공 케어",
+  "good": "지성·모공 고민 피부",
+  "en": "refreshes and helps refine pores",
+  "caution": "",
+  "name": "버드나무껍질수",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "sea salt": {
+  "ko": [
+   "바다소금"
+  ],
+  "inci": [
+   "Sea Salt"
+  ],
+  "fx": "각질 정돈·피지 케어(스크럽·두피)",
+  "good": "지성 두피, 거친 각질",
+  "en": "scrubs away dead skin and excess oil",
+  "caution": "문지르지 말고 부드럽게, 상처엔 피하기",
+  "name": "바다소금",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "sea water": {
+  "ko": [
+   "해수"
+  ],
+  "inci": [
+   "Sea Water"
+  ],
+  "fx": "미네랄 공급·수분감",
+  "good": "건조·칙칙한 피부",
+  "en": "hydrates skin with minerals",
+  "caution": "",
+  "name": "해수",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "silica": {
+  "ko": [
+   "실리카"
+  ],
+  "inci": [
+   "Silica"
+  ],
+  "fx": "피지 흡수, 보송한 마무리",
+  "good": "지성 피부, 보송한 메이크업",
+  "en": "absorbs oil for a soft matte finish",
+  "caution": "",
+  "name": "실리카",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "silk amino acids": {
+  "ko": [
+   "실크아미노산"
+  ],
+  "inci": [
+   "Silk Amino Acids"
+  ],
+  "fx": "보습·매끄러운 결, 모발 윤기",
+  "good": "건조 피부, 푸석한 모발",
+  "en": "moisturizes and adds a silky smoothness",
+  "caution": "",
+  "name": "실크아미노산",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "jojoba oil": {
+  "ko": [
+   "호호바오일"
+  ],
+  "inci": [
+   "Simmondsia Chinensis (Jojoba) Seed Oil",
+   "Simmondsia Chinensis Seed Oil"
+  ],
+  "fx": "피지와 비슷한 가벼운 오일로 보습·유수분 밸런스",
+  "good": "건성~복합성, 오일 입문자",
+  "en": "moisturizes lightly and balances oil and water",
+  "caution": "",
+  "name": "호호바오일",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "snail mucin": {
+  "ko": [
+   "달팽이점액여과물"
+  ],
+  "inci": [
+   "Snail Secretion Filtrate"
+  ],
+  "fx": "보습·피부결 개선, 컨디션 회복",
+  "good": "건조·트러블 자국·거친 결",
+  "en": "hydrates, repairs and smooths skin texture",
+  "caution": "",
+  "name": "달팽이점액여과물",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "amino acid cleanser": {
+  "ko": [
+   "소듐코코일글루타메이트",
+   "소듐코코일글리시네이트"
+  ],
+  "inci": [
+   "Sodium Cocoyl Glutamate",
+   "Sodium Cocoyl Glycinate"
+  ],
+  "fx": "아미노산계 순한 세정",
+  "good": "민감·건조 피부",
+  "en": "cleanses gently without drying",
+  "caution": "",
+  "name": "소듐코코일글루타메이트",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "mild cleanser": {
+  "ko": [
+   "소듐코코일이세티오네이트"
+  ],
+  "inci": [
+   "Sodium Cocoyl Isethionate"
+  ],
+  "fx": "순하고 크리미한 거품 세정",
+  "good": "모든 피부, 순한 세정 선호",
+  "en": "cleanses gently with creamy lather",
+  "caution": "",
+  "name": "소듐코코일이세티오네이트",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "squalane": {
+  "ko": [
+   "스쿠알란"
+  ],
+  "inci": [
+   "Squalane"
+  ],
+  "fx": "가벼운 보습 오일, 장벽 보호",
+  "good": "모든 피부, 오일 입문자",
+  "en": "moisturizes lightly without feeling greasy",
+  "caution": "",
+  "name": "스쿠알란",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "succinic acid": {
+  "ko": [
+   "석시닉애씨드"
+  ],
+  "inci": [
+   "Succinic Acid"
+  ],
+  "fx": "피지·트러블 케어, 산뜻한 정돈",
+  "good": "지성·트러블 피부",
+  "en": "helps calm breakouts and control oil",
+  "caution": "",
+  "name": "석시닉애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "sugar": {
+  "ko": [
+   "설탕"
+  ],
+  "inci": [
+   "Sucrose"
+  ],
+  "fx": "스크럽·보습 성분, 부드러운 각질 정돈",
+  "good": "거친 결, 입술 각질",
+  "en": "gently polishes and moisturizes skin",
+  "caution": "스크럽은 주 1~2회, 부드럽게",
+  "name": "설탕",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "cocoa butter": {
+  "ko": [
+   "코코아버터"
+  ],
+  "inci": [
+   "Theobroma Cacao (Cocoa) Seed Butter"
+  ],
+  "fx": "풍부한 보습막으로 건조 방지",
+  "good": "건성·악건성, 입술·바디",
+  "en": "deeply moisturizes and softens dry skin",
+  "caution": "여드름 피부는 얼굴 사용 주의",
+  "name": "코코아버터",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "titanium dioxide": {
+  "ko": [
+   "티타늄디옥사이드"
+  ],
+  "inci": [
+   "Titanium Dioxide"
+  ],
+  "fx": "무기 자외선 차단, UVB·일부 UVA 반사",
+  "good": "민감 피부, 무기자차 선호",
+  "en": "physically blocks UVB and some UVA rays",
+  "caution": "약간 백탁 있을 수 있어요",
+  "name": "티타늄디옥사이드",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "자외선"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "vitamin e": {
+  "ko": [
+   "토코페롤(비타민E)"
+  ],
+  "inci": [
+   "Tocopherol"
+  ],
+  "fx": "항산화·보습, 제품 산화 방지",
+  "good": "건조 피부, 모든 피부",
+  "en": "protects skin with antioxidants and moisture",
+  "caution": "",
+  "name": "토코페롤",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "tranexamic acid": {
+  "ko": [
+   "트라넥사믹애씨드"
+  ],
+  "inci": [
+   "Tranexamic Acid"
+  ],
+  "fx": "기미·잡티 톤 개선, 맑은 피부",
+  "good": "기미·잡티·칙칙한 톤",
+  "en": "helps fade dark spots and even tone",
+  "caution": "낮엔 선크림 함께",
+  "name": "트라넥사믹애씨드",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "trehalose": {
+  "ko": [
+   "트레할로스"
+  ],
+  "inci": [
+   "Trehalose"
+  ],
+  "fx": "수분 유지·건조 방지",
+  "good": "건조 피부",
+  "en": "helps skin retain moisture",
+  "caution": "",
+  "name": "트레할로스",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "truffle": {
+  "ko": [
+   "트러플추출물"
+  ],
+  "inci": [
+   "Tuber Aestivum (Truffle) Extract"
+  ],
+  "fx": "영양·보습으로 윤기 있는 피부",
+  "good": "건조·푸석한 피부, 안티에이징",
+  "en": "nourishes skin for a rich, radiant glow",
+  "caution": "",
+  "name": "트러플추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "white truffle": {
+  "ko": [
+   "화이트트러플추출물"
+  ],
+  "inci": [
+   "Tuber Magnatum Extract"
+  ],
+  "fx": "영양·보습으로 윤기 있는 피부",
+  "good": "건조·푸석한 피부, 안티에이징",
+  "en": "nourishes skin for a rich, radiant glow",
+  "caution": "",
+  "name": "화이트트러플추출물",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "urea": {
+  "ko": [
+   "우레아"
+  ],
+  "inci": [
+   "Urea"
+  ],
+  "fx": "보습·각질 연화, 거친 피부 매끈하게",
+  "good": "악건성, 거친 발뒤꿈치·팔꿈치",
+  "en": "deeply hydrates and softens rough skin",
+  "caution": "상처·갈라진 부위는 따가울 수 있어요",
+  "name": "우레아",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": [
+   "건성",
+   "수부지"
+  ]
+ },
+ "vitamins": {
+  "ko": [
+   "비타민 복합"
+  ],
+  "inci": [
+   "Vitamins"
+  ],
+  "fx": "항산화·피부 컨디션 케어",
+  "good": "칙칙·지친 피부",
+  "en": "helps keep skin healthy and radiant",
+  "caution": "",
+  "name": "비타민 복합",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "volcanic ash": {
+  "ko": [
+   "화산송이"
+  ],
+  "inci": [
+   "Volcanic Ash"
+  ],
+  "fx": "피지·노폐물 흡착, 모공 정돈",
+  "good": "지성·모공·블랙헤드 고민",
+  "en": "draws out oil and impurities from pores",
+  "caution": "주 1~2회, 건성은 짧게",
+  "name": "화산송이",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "zinc": {
+  "ko": [
+   "아연"
+  ],
+  "inci": [
+   "Zinc"
+  ],
+  "fx": "먹는 이너뷰티, 피부·모발 건강에 도움을 줄 수 있어요",
+  "good": "트러블·모발 고민, 이너뷰티",
+  "en": "may support healthy skin and hair",
+  "caution": "섭취량 지켜서",
+  "name": "아연",
+  "time": "상관없음",
+  "concerns": [
+   "여드름"
+  ],
+  "strong": false,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "zinc oxide": {
+  "ko": [
+   "징크옥사이드"
+  ],
+  "inci": [
+   "Zinc Oxide"
+  ],
+  "fx": "무기 자외선 차단, UVA·UVB 넓게 반사",
+  "good": "민감·트러블 피부, 무기자차 선호",
+  "en": "physically blocks both UVA and UVB rays",
+  "caution": "백탁 있을 수 있어요, 꼼꼼히 세안",
+  "name": "징크옥사이드",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "민감·진정",
+   "자외선"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "zinc pca": {
+  "ko": [
+   "징크PCA"
+  ],
+  "inci": [
+   "Zinc PCA"
+  ],
+  "fx": "피지 조절·트러블 피부 케어",
+  "good": "지성·트러블·모공 고민 피부",
+  "en": "controls excess oil and helps prevent breakouts",
+  "caution": "",
+  "name": "징크PCA",
+  "time": "상관없음",
+  "concerns": [
+   "여드름",
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": true,
+  "skin": [
+   "지성",
+   "복합성"
+  ]
+ },
+ "zinc pyrithione": {
+  "ko": [
+   "징크피리치온"
+  ],
+  "inci": [
+   "Zinc Pyrithione"
+  ],
+  "fx": "비듬·두피 가려움 케어",
+  "good": "비듬·가려운 두피",
+  "en": "helps control dandruff and itchy scalp",
+  "caution": "두피에 1~2분 두었다 헹구기",
+  "name": "징크피리치온",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "astragalus root": {
+  "ko": [
+   "황기 뿌리 추출물"
+  ],
+  "inci": [
+   "Astragalus Membranaceus Root Extract"
+  ],
+  "fx": "진정·보습, 피부 컨디션 회복",
+  "good": "지치고 건조한 피부",
+  "en": "calms and replenishes tired skin",
+  "caution": "",
+  "name": "황기 뿌리 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "birch sap": {
+  "ko": [
+   "자작나무 수액"
+  ],
+  "inci": [
+   "Betula Platyphylla Japonica Juice"
+  ],
+  "fx": "가볍게 수분 공급·진정",
+  "good": "건조·민감 피부",
+  "en": "hydrates lightly and soothes skin",
+  "caution": "",
+  "name": "자작나무 수액",
+  "time": "상관없음",
+  "concerns": [
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "carnosine": {
+  "ko": [
+   "카르노신"
+  ],
+  "inci": [
+   "Carnosine"
+  ],
+  "fx": "당화(糖化) 방지·탄력 유지 도움",
+  "good": "탄력 저하·칙칙함 고민",
+  "en": "helps fight sugar-related skin aging",
+  "caution": "",
+  "name": "카르노신",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "yuja": {
+  "ko": [
+   "유자 추출물"
+  ],
+  "inci": [
+   "Citrus Junos Fruit Extract"
+  ],
+  "fx": "비타민C 풍부, 맑은 톤·생기",
+  "good": "칙칙한 피부",
+  "en": "brightens dull skin with natural vitamin C",
+  "caution": "",
+  "name": "유자 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "colostrum": {
+  "ko": [
+   "초유"
+  ],
+  "inci": [
+   "Colostrum"
+  ],
+  "fx": "보습·영양, 피부 컨디션 회복",
+  "good": "건조·푸석한 피부",
+  "en": "nourishes and helps skin recover",
+  "caution": "유제품 알레르기면 확인",
+  "name": "초유",
+  "time": "상관없음",
+  "concerns": [
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "gaba": {
+  "ko": [
+   "가바(GABA)"
+  ],
+  "inci": [
+   "Gamma-Aminobutyric Acid"
+  ],
+  "fx": "먹는 제품: 긴장 완화·숙면 도움",
+  "good": "스트레스·수면 고민",
+  "en": "helps you relax and sleep better",
+  "caution": "건강기능식품, 복용량 지키기",
+  "name": "가바",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "l-theanine": {
+  "ko": [
+   "L-테아닌"
+  ],
+  "inci": [
+   "L-Theanine"
+  ],
+  "fx": "먹는 제품: 긴장 완화·집중 도움",
+  "good": "스트레스·수면 고민",
+  "en": "helps calm the mind",
+  "caution": "건강기능식품, 복용량 지키기",
+  "name": "L-테아닌",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "magnesium": {
+  "ko": [
+   "산화마그네슘",
+   "황산마그네슘"
+  ],
+  "inci": [
+   "Magnesium Oxide",
+   "Magnesium Sulfate"
+  ],
+  "fx": "먹는 제품: 근육 이완·수면 도움",
+  "good": "피로·수면 고민",
+  "en": "supports relaxation and better sleep",
+  "caution": "과량 복용 시 배탈 주의",
+  "name": "산화마그네슘",
+  "time": "상관없음",
+  "concerns": [],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "noni fruit": {
+  "ko": [
+   "노니 추출물"
+  ],
+  "inci": [
+   "Morinda Citrifolia Fruit Extract"
+  ],
+  "fx": "항산화·진정·보습",
+  "good": "칙칙하고 지친 피부",
+  "en": "protects skin with antioxidants",
+  "caution": "",
+  "name": "노니 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "민감·진정",
+   "보습·건조"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "red bean": {
+  "ko": [
+   "팥 추출물"
+  ],
+  "inci": [
+   "Phaseolus Angularis Seed Extract"
+  ],
+  "fx": "피지·모공 정돈, 부드러운 각질 케어",
+  "good": "지성·모공 고민",
+  "en": "cleans pores and controls oil",
+  "caution": "",
+  "name": "팥 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "모공·피지"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ },
+ "clove extract": {
+  "ko": [
+   "정향 추출물"
+  ],
+  "inci": [
+   "Eugenia Caryophyllus (Clove) Flower Extract"
+  ],
+  "fx": "항산화로 피부 보호, 가벼운 탄력 케어",
+  "good": "칙칙함, 초기 잔주름",
+  "en": "antioxidant that helps protect against early wrinkles",
+  "caution": "향이 강하고 자극 가능, 패치 테스트 후 사용",
+  "name": "정향 추출물",
+  "time": "상관없음",
+  "concerns": [
+   "잡티·미백",
+   "노화·탄력"
+  ],
+  "strong": false,
+  "sebum": false,
+  "skin": []
+ }
+}

@@ -1,0 +1,68 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"></head><body>
+<title>오프뷰티 추천 찾기</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="style.css">
+<header class="top">
+  <div class="wrap">
+    <h1><span>오프뷰티 1F</span> <b id="title">추천 찾기</b></h1>
+    <form id="form" role="search">
+      <label for="q" class="sr">손님 말 그대로 검색</label>
+      <input id="q" type="search" autocomplete="off" placeholder="손님 말 그대로 (예: 여드름 지성)">
+      <button type="submit">찾기</button>
+    </form>
+    <p id="hint" class="hint" aria-live="polite"></p>
+  </div>
+</header>
+<main class="wrap">
+<p class="demo">체험판이에요. 제품 이름·진열 위치·가격은 예시 값이고, 성분 설명과 트렌드는 실제 데이터예요.</p>
+
+<div id="find" class="view">
+  <div id="examples" class="examples">
+    <span>예시</span>
+    <button type="button" class="chip" data-act="say">여드름 지성 크림</button>
+    <button type="button" class="chip" data-act="say">건조하고 예민해요</button>
+    <button type="button" class="chip" data-act="say">기미 세럼</button>
+    <button type="button" class="chip" data-act="say">선크림</button>
+  </div>
+  <section class="filter">
+    <button type="button" id="toggle" class="sum" data-act="panel" aria-expanded="false" aria-controls="panel">
+      <span id="sumtext"></span><span class="caret" aria-hidden="true">▾</span>
+    </button>
+    <div id="chips" class="chips"></div>
+    <div id="panel" class="panel" hidden></div>
+  </section>
+  <section id="ings"></section>
+  <section id="results"></section>
+  <p class="foot">성분은 상품명과 판매처 정보 기준이에요. 공식 전성분은 아직 확인 전이에요.</p>
+</div>
+<div id="dict" class="view" hidden>
+  <label for="dq" class="sr">성분 이름 검색</label>
+  <input id="dq" type="search" autocomplete="off" placeholder="성분 이름 (한글·영어 모두)">
+  <div id="dlist"></div>
+</div>
+<div id="trend" class="view" hidden></div>
+</main>
+<nav class="tabbar" aria-label="화면">
+  <button type="button" data-act="tab" data-val="find" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>추천 찾기</button>
+  <button type="button" data-act="tab" data-val="dict"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/><path d="M9 8h6"/></svg>성분 사전</button>
+  <button type="button" data-act="tab" data-val="trend"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>트렌드</button>
+</nav>
+<div id="sheet" class="sheet" hidden>
+  <button type="button" class="dim" data-act="close" aria-label="닫기"></button>
+  <div class="pane" role="dialog" aria-modal="true" aria-label="자세히">
+    <span class="grab" aria-hidden="true"></span>
+    <button type="button" class="x" data-act="close" aria-label="닫기">×</button>
+    <div id="sheetbody"></div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="query.js"></script>
+<script src="score.js"></script>
+<script src="view.js"></script>
+<script src="card.js"></script>
+<script src="sheet.js"></script>
+<script src="trend.js"></script>
+<script src="product.js"></script>
+<script src="dict.js"></script>
+<script src="main.js"></script>
+</body></html>
