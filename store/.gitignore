@@ -9,4 +9,3 @@ manual/직접입력.csv
 .env*
 __pycache__/
 data.prev.js
-.staff_password

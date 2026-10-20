@@ -8,7 +8,7 @@ PREV = os.path.join(here, "data.prev.js")  # 어제 것 백업은 app/ 밖에 �
 
 def steps(excel):
     full = [["make_dicts.py"], ["excel_to_products.py", excel], ["apply_manual.py"], ["tag_products.py"]] if excel else []
-    return full + [["make_page_data.py"], ["check.py"], ["lock.js"]]  # lock.js: 깃허브용 비밀번호 페이지
+    return full + [["make_page_data.py"], ["check.py"], ["make_demo.py"]]  # make_demo: 깃허브용 체험판(가짜 매장 데이터)
 
 def run(step):
     print("▶", " ".join(step), flush=True)

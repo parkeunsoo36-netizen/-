@@ -236,11 +236,5 @@ body[data-tab="find"] .pane { background: var(--card); }
 #find .tap { font-size: 12px; font-weight: 600; color: var(--accent); }
 
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
-/* 비밀번호 화면 (깃허브 사이트용 staff/ 페이지에서만 쓰임) */
-.gate{position:fixed;inset:0;z-index:100;background:#fff;display:grid;place-items:center;padding:16px}
-.gate form{width:100%;max-width:320px;display:grid;gap:10px}
-.gate h2{margin:0;font-size:20px}.gate p{margin:0;color:#666}
-.gate input[type=password]{font:inherit;font-size:16px;padding:12px;border:1px solid #ccc;border-radius:10px}
-.gate label{font-size:14px;color:#444}
-.gate button{font:inherit;font-weight:700;padding:12px;border:0;border-radius:10px;background:#0E7A6B;color:#fff}
-.gate .err{color:#c0392b}
+/* 체험판 안내 (깃허브 demo/ 페이지에서만 쓰임) */
+.demo{margin:8px 0 0;padding:8px 10px;border-radius:8px;background:#FFF4E5;color:#8A5300;font-size:12.5px}
