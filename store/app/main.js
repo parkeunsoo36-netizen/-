@@ -59,6 +59,7 @@
 
   function act(b) {
     const { act: a, cat, val } = b.dataset;
+    if (["toggle", "remove", "reset", "tab"].includes(a)) $("hint").textContent = "";  // 조건·탭이 바뀌면 지난 검색 안내는 지움
     if (a === "toggle") { toggle(cat, val); if (b.closest("#sheet")) { sh = null; tab = "find"; scrollTo(0, 0); } }
     if (a === "remove") cat === "country" ? (st.country = "") : (st[cat] = st[cat].filter(v => v !== val));
     if (a === "reset") st = blank();
@@ -79,7 +80,8 @@
 
   function search(text) {
     const { out, found } = Query.parse(text, OB.syn, names);
-    $("hint").textContent = found ? "" : `"${text}"에서 아는 말을 못 찾았어요. 고민이나 성분 이름으로 써 보세요.`;
+    const kept = hasCond() ? " 지금 조건은 그대로 뒀어요." : "";
+    $("hint").textContent = found ? "" : `"${text}"는 아직 모르는 말이에요. 고민(여드름)·성분(나이아신아마이드)·제형(크림)으로 써 보세요.${kept}`;
     for (const c of Object.keys(out)) out[c].forEach(v => st[c].includes(v) || st[c].push(v));
     st.shown = 10; tab = "find";
     render();
