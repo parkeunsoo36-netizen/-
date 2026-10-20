@@ -4,30 +4,47 @@ import json, os, random, shutil
 import tag_products
 here = os.path.dirname(os.path.abspath(__file__))
 app, out = os.path.join(here, "app"), os.path.join(here, "..", "site")
-KEEP = {"manifest.json", "sw.js", "icon-192.png", "icon-512.png", ".nojekyll"}  # 휴대폰 설치용 파일은 그대로 둠
+KEEP = {"manifest.json", "sw.js", "icon-192.png", "icon-512.png", ".nojekyll", "og.png"}  # 휴대폰 설치용 파일·링크 미리보기 이미지는 그대로 둠
+SITE = "https://parkeunsoo36-netizen.github.io/offbeauty-recommend-note/"
+DESC = "손님 말 한마디로 필요한 성분, 매장 제품, 진열 위치까지. 명동 매장 직원용 K뷰티 추천 도구 체험판"
 FORMS = ["크림", "세럼앰플", "토너", "패드", "팩마스크", "선케어", "클렌저"]
 BRANDS = ["체험브랜드 A", "체험브랜드 B", "체험브랜드 C", "체험브랜드 D"]
 ZONES = "ABDE"
 N = 60
 
-def fake(i, ings, rnd):
+def fake(i, hero, others, rnd, brand):  # 제품 이름·고민은 대표 성분(hero) 하나로 맞춤 → 추천 이유와 이름이 어긋나지 않게
     form = FORMS[i % len(FORMS)]
-    name = f"{BRANDS[i % len(BRANDS)].split()[-1]} {tag_products.DIC[ings[0]]['name']} {form} (예시)"
+    if form == "선케어" and tag_products.DIC[hero]["time"] == "밤": form = "크림"
+    ings = [hero] + others
+    name = f"{brand.split()[-1]} {tag_products.DIC[hero]['name']} {form} (예시)"
     zone, rack = rnd.choice(ZONES), rnd.randint(1, 6)
-    p = {"id": f"demo{i:03d}", "name": name, "brand": BRANDS[i % len(BRANDS)], "form": form, "price": rnd.randrange(8000, 40000, 1000),
+    p = {"id": f"demo{i:03d}", "name": name, "brand": brand, "form": form, "price": rnd.randrange(8000, 40000, 1000),
          "ingredients": ings, "loc": {"floor": "1F", "zone": zone, "rack": str(rack), "tier": 1, "slot": 1, "badge": f"1F {zone}-{rack}"},
          "rank": i, "photo": "미확인", "viral": []}
-    return tag_products.tag(p)
+    p = tag_products.tag(p)
+    p["concerns"] = tag_products.tag({**p, "ingredients": [hero]})["concerns"]  # 주의 표시(warn)는 성분 전체 기준 그대로
+    return p
 
 def products(ob, rnd):
-    pool = [k for k in ob["hot"] if k in tag_products.DIC] + [k for k in tag_products.DIC if tag_products.DIC[k]["concerns"]]
-    ps = [fake(i, sorted(set(rnd.sample(pool[:60], 3))), rnd) for i in range(N)]
+    pool = list(dict.fromkeys([k for k in ob["hot"] if k in tag_products.DIC] + [k for k in tag_products.DIC if tag_products.DIC[k]["concerns"]]))[:60]
+    heroes = [k for k in pool if tag_products.DIC[k]["concerns"]][:40]  # 요즘 뜨는 성분부터 대표 성분으로
+    ps = []
+    for i in range(N):
+        h = heroes[i % len(heroes)]
+        mild = [k for k in pool if k != h and not tag_products.DIC[k]["strong"] and tag_products.DIC[k]["time"] != "밤"]  # 보조 성분은 순한 것만
+        brand = BRANDS[(i + i // len(heroes)) % len(BRANDS)]  # 같은 대표 성분이 다시 나오면 다른 브랜드로 → 이름 중복 없음
+        ps.append(fake(i, h, rnd.sample(mild, 2), rnd, brand))
     for p in ps[:3]: p["viral"] = [[ob["last"], next(iter(ob["countries"])), "체험판 예시: 요즘 뜨는 성분이 든 제품"]]
     return ps
 
 def page():
     html = open(os.path.join(app, "index.html"), encoding="utf-8").read()
-    head = ('<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
+    html = html.replace("<title>오프뷰티 추천 찾기</title>\n", "")  # 제목은 head 안으로 옮김
+    meta = (f'<title>오프뷰티 추천 찾기 체험판</title><meta name="description" content="{DESC}">'
+            f'<meta property="og:type" content="website"><meta property="og:url" content="{SITE}"><meta property="og:title" content="오프뷰티 추천 찾기 체험판">'
+            f'<meta property="og:description" content="{DESC}"><meta property="og:image" content="{SITE}og.png"><meta property="og:image:width" content="1200">'
+            '<meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">')
+    head = ('<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">' + meta +
             '<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#0E7A6B"><link rel="apple-touch-icon" href="icon-192.png">'
             '<meta name="apple-mobile-web-app-capable" content="yes"></head><body>\n')
     sw = "<script>if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');</script>\n"
